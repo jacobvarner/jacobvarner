@@ -4,7 +4,7 @@
   height: 80px;
   width: 100%;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.75);
-  position: absolute;
+  position: fixed;
   top: 0; }
   .nav-bar #logo:active, .nav-bar #logo:visited, .nav-bar #logo, .nav-bar #logo:hover {
     font-size: 48px;
@@ -76,5 +76,107 @@
     font-family: "Roboto", sans-serif;
     text-align: center;
     margin: 0; }
+
+.boxes {
+  width: 100%;
+  background: white;
+  overflow: auto; }
+  .boxes .box-container {
+    width: 1230px;
+    height: 425px;
+    display: block;
+    margin: 15px auto; }
+    .boxes .box-container .box {
+      float: left;
+      display: block;
+      width: 380px;
+      background: #ffd7b5;
+      height: 390px;
+      box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.75);
+      margin: 15px;
+      padding: 0;
+      position: relative; }
+      .boxes .box-container .box .box-heading {
+        display: block;
+        width: 380px;
+        height: 50px;
+        background: #dd550c;
+        overflow: auto; }
+        .boxes .box-container .box .box-heading h2 {
+          font-size: 24px;
+          color: white;
+          font-style: bold;
+          font-family: "Roboto", sans-serif;
+          margin: 11px; }
+      .boxes .box-container .box .box-content {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        color: #555555;
+        margin: 11px; }
+        .boxes .box-container .box .box-content a, .boxes .box-container .box .box-content a:active, .boxes .box-container .box .box-content a:hover, .boxes .box-container .box .box-content a:visited {
+          color: #ff6700;
+          text-decoration: none; }
+      .boxes .box-container .box .button-1, .boxes .box-container .box :visited {
+        display: block;
+        width: 344px;
+        border: #dd550c solid 3px;
+        background: #ffb38a;
+        height: 24px;
+        margin: 15px;
+        padding: 10px 0;
+        color: #dd550c;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        text-decoration: none;
+        text-align: center;
+        position: absolute;
+        bottom: 0; }
+      .boxes .box-container .box .button-1:hover, .boxes .box-container .box :active {
+        background: #dd550c;
+        color: white;
+        transition: 1s; }
+      .boxes .box-container .box .button-21, .boxes .box-container .box :visited {
+        display: block;
+        width: 164px;
+        border: #dd550c solid 3px;
+        background: #ffb38a;
+        height: 24px;
+        margin: 15px;
+        padding: 10px 0;
+        color: #dd550c;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        text-decoration: none;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        left: 0; }
+      .boxes .box-container .box .button-21:hover, .boxes .box-container .box :active {
+        background: #dd550c;
+        color: white;
+        transition: 1s; }
+      .boxes .box-container .box .button-22, .boxes .box-container .box :visited {
+        display: block;
+        width: 164px;
+        border: #dd550c solid 3px;
+        background: #ffb38a;
+        height: 24px;
+        margin: 15px;
+        padding: 10px 0;
+        color: #dd550c;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        text-decoration: none;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        right: 0; }
+      .boxes .box-container .box .button-22:hover, .boxes .box-container .box :active {
+        background: #dd550c;
+        color: white;
+        transition: 1s; }
 
 /*# sourceMappingURL=styles.css.map */
