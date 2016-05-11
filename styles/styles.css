@@ -5,7 +5,8 @@
   width: 100%;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.75);
   position: fixed;
-  top: 0; }
+  top: 0;
+  z-index: 1; }
   .nav-bar #logo:active, .nav-bar #logo:visited, .nav-bar #logo, .nav-bar #logo:hover {
     font-size: 48px;
     color: #ff6700;
@@ -216,5 +217,42 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 80px; }
+
+#about-me {
+  margin-top: 80px;
+  width: 100%;
+  overflow: auto; }
+  #about-me h1 {
+    color: #555555;
+    font-family: "Roboto", sans-serif;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: center;
+    margin: 60px 30px; }
+  #about-me #about-me-images {
+    display: block;
+    width: 1200px;
+    margin: 0px auto;
+    height: 300px; }
+    #about-me #about-me-images .about-me-image {
+      float: left; }
+      #about-me #about-me-images .about-me-image img {
+        height: 300px;
+        margin: 0;
+        padding: 0; }
+  #about-me #about-me-text {
+    width: 900px;
+    display: block;
+    margin: 60px auto; }
+    #about-me #about-me-text p {
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif;
+      line-height: 24px;
+      color: #555555; }
+    #about-me #about-me-text a, #about-me #about-me-text :visited, #about-me #about-me-text :active {
+      color: #ff6700;
+      text-decoration: none; }
+    #about-me #about-me-text a:hover {
+      color: #fe9148; }
 
 /*# sourceMappingURL=styles.css.map */

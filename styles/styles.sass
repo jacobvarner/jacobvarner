@@ -19,6 +19,7 @@ $orange-six: #dd550c
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.75)
   position: fixed
   top: 0
+  z-index: 1
 
   #logo:active, #logo:visited, #logo, #logo:hover
     font-size: 48px
@@ -270,3 +271,52 @@ footer
     font-family: 'Roboto', sans-serif
     font-size: 18px
     line-height: 80px
+
+//////////////
+// ABOUT ME //
+//////////////
+
+#about-me
+  margin-top: 80px
+  width: 100%
+  overflow: auto
+
+  h1
+    color: $dark-gray
+    font-family: 'Roboto', sans-serif
+    font-size: 72px
+    line-height: 72px
+    text-align: center
+    margin: 60px 30px
+
+  #about-me-images
+    display: block
+    width: 1200px
+    margin: 0px auto
+    height: 300px
+
+    .about-me-image
+      float: left
+
+      img
+        height: 300px
+        margin: 0
+        padding: 0
+
+  #about-me-text
+    width: 900px
+    display: block
+    margin: 60px auto
+
+    p
+      font-size: 16px
+      font-family: 'Open Sans', sans-serif
+      line-height: 24px
+      color: $dark-gray
+
+    a, :visited, :active
+      color: $orange-five
+      text-decoration: none
+
+    a:hover
+      color: $orange-three
