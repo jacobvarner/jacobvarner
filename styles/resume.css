@@ -29,4 +29,28 @@
     margin-top: 13px;
     z-index: 1; }
 
+#name {
+  font-family: "Roboto", sans-serif;
+  font-size: 72px;
+  text-align: center;
+  color: #dd550c;
+  margin: 50px 30px 15px; }
+
+#contact-info {
+  display: block;
+  text-align: center; }
+  #contact-info p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #555555;
+    display: inline;
+    vertical-align: middle; }
+  #contact-info img {
+    height: 24px;
+    margin: 0 5px;
+    display: inline;
+    vertical-align: middle;
+    line-height: 24px; }
+
 /*# sourceMappingURL=resume.css.map */
