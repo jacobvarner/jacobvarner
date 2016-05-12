@@ -1,0 +1,46 @@
+/* Color Variables */
+$dark-gray: #555555
+$light-gray: #cccccc
+$orange-one: #ffd7b5
+$orange-two: #ffb38a
+$orange-three: #fe9148
+$orange-four: #f68026
+$orange-five: #ff6700
+$orange-six: #dd550c
+
+////////////////////
+// FLOATING LINKS //
+////////////////////
+
+#floating-links
+  display: block
+  position: fixed
+  top: 15px
+  right: 15px
+
+  .button, .button:visited
+    display: block
+    border: $orange-six solid 3px
+    font-family: 'Roboto', sans-serif
+    font-size: 20px
+    color: $orange-six
+    text-decoration: none
+    padding: 10px
+    float: right
+    background: $orange-two
+    z-index: 1
+
+  .button:hover, .button:active
+    background: $orange-six
+    color: white
+    transition: 1s
+
+  .link, .link:hover, .link:active, .link:visited
+    float: right
+    clear: right
+    font-family: 'Open Sans', sans-serif
+    font-size: 18px
+    color: $orange-five
+    text-decoration: none
+    margin-top: 13px
+    z-index: 1

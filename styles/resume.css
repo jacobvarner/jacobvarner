@@ -1,0 +1,32 @@
+/* Color Variables */
+#floating-links {
+  display: block;
+  position: fixed;
+  top: 15px;
+  right: 15px; }
+  #floating-links .button, #floating-links .button:visited {
+    display: block;
+    border: #dd550c solid 3px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #dd550c;
+    text-decoration: none;
+    padding: 10px;
+    float: right;
+    background: #ffb38a;
+    z-index: 1; }
+  #floating-links .button:hover, #floating-links .button:active {
+    background: #dd550c;
+    color: white;
+    transition: 1s; }
+  #floating-links .link, #floating-links .link:hover, #floating-links .link:active, #floating-links .link:visited {
+    float: right;
+    clear: right;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #ff6700;
+    text-decoration: none;
+    margin-top: 13px;
+    z-index: 1; }
+
+/*# sourceMappingURL=resume.css.map */
