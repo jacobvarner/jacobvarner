@@ -6,7 +6,7 @@
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.75);
   position: fixed;
   top: 0;
-  z-index: 1; }
+  z-index: 2; }
   .nav-bar #logo:active, .nav-bar #logo:visited, .nav-bar #logo, .nav-bar #logo:hover {
     font-size: 48px;
     color: #ff6700;
@@ -192,7 +192,7 @@
     font-weight: bold;
     text-align: center;
     margin: 30px; }
-  .links .contact-link, .links :visited {
+  .links .contact-link, .links .contact-link:visited {
     width: 480px;
     margin: 30px auto;
     display: block;
@@ -201,7 +201,7 @@
     color: white;
     text-decoration: none;
     font-size: 30px; }
-    .links .contact-link img, .links :visited img {
+    .links .contact-link img, .links .contact-link:visited img {
       height: 50px;
       margin-right: 15px;
       vertical-align: middle; }
@@ -305,7 +305,7 @@ footer {
     .projects .project-boxes a .color-4, .projects .project-boxes a:visited .color-4 {
       background: #dd550c; }
     .projects .project-boxes a:hover .project-box {
-      z-index: 2; }
+      z-index: 1; }
     .projects .project-boxes a:hover .color-1 {
       box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.5); }
     .projects .project-boxes a:hover .color-2 {
