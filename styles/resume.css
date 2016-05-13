@@ -180,4 +180,41 @@
       #resume-involvement .involvement-div ul li {
         margin: 5px 0; }
 
+#resume-projects {
+  width: 100%;
+  background: white;
+  overflow: auto;
+  margin: 0; }
+  #resume-projects h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #dd550c;
+    font-size: 30px;
+    margin: 15px; }
+  #resume-projects .projects-div {
+    display: block;
+    width: 900px;
+    margin: 15px auto;
+    overflow: auto; }
+    #resume-projects .projects-div h3 {
+      color: #333333;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      margin: 0; }
+    #resume-projects .projects-div p {
+      color: #555555;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      display: inline;
+      margin: 0;
+      line-height: 18px; }
+  #resume-projects #projects-note {
+    text-align: center;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px; }
+    #resume-projects #projects-note a, #resume-projects #projects-note a:hover, #resume-projects #projects-note a:active, #resume-projects #projects-note a:visited {
+      text-decoration: none;
+      color: #ff6700; }
+
 /*# sourceMappingURL=resume.css.map */
