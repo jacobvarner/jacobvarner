@@ -57,7 +57,7 @@
   width: 100%;
   background: #cccccc;
   overflow: auto;
-  margin: 30px 0; }
+  margin: 30px 0 15px; }
   #resume-education h2 {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -108,5 +108,43 @@
       display: inline;
       margin: 0;
       line-height: 18px; }
+
+#resume-experience {
+  width: 100%;
+  background: white;
+  overflow: auto;
+  margin: 0; }
+  #resume-experience h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #dd550c;
+    font-size: 30px;
+    margin: 15px; }
+  #resume-experience .experience-div {
+    display: block;
+    width: 900px;
+    margin: 15px auto;
+    overflow: auto; }
+    #resume-experience .experience-div h3 {
+      color: #333333;
+      font-family: "Roboto", sans-serif;
+      font-size: 24px;
+      margin: 0; }
+    #resume-experience .experience-div h4 {
+      color: #333333;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      margin: 5px 0; }
+    #resume-experience .experience-div ul {
+      margin: 0;
+      list-style: circle;
+      padding-left: 20px;
+      margin-top: 5px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      line-height: 18px;
+      color: #555555; }
+      #resume-experience .experience-div ul li {
+        margin: 5px 0; }
 
 /*# sourceMappingURL=resume.css.map */
