@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/styles.css" />
     <link rel="stylesheet" type="text/css" href="../styles/normalize.css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto:700|Open+Sans:400,400italic' rel='stylesheet' type='text/css' />
+    <script src="../js/scripts.js"></script>
   </head>
   <body>
     <header>
@@ -42,10 +43,10 @@
         <a class="button" href="http://www.auburnbasketballstats.com">View Live Version</a>
       </div>
       <div class="project-images">
-        <img class="image-main" src="../images/projects/auburn-basketball-stats-1.jpg" />
-        <img class="sub-image-1" src="../images/projects/auburn-basketball-stats-2.jpg" />
-        <img class="sub-image-2" src="../images/projects/auburn-basketball-stats-3.jpg" />
-        <img class="sub-image-3" src="../images/projects/auburn-basketball-stats-4.jpg" />
+        <img id="image-main" src="../images/projects/auburn-basketball-stats-1.jpg" />
+        <img id="sub-image-1" onClick="changeImage(this);" src="../images/projects/auburn-basketball-stats-2.jpg" />
+        <img id="sub-image-2" onClick="changeImage(this);" src="../images/projects/auburn-basketball-stats-3.jpg" />
+        <img id="sub-image-3" onClick="changeImage(this);" src="../images/projects/auburn-basketball-stats-4.jpg" />
       </div>
     </section>
     <div class="other-projects">
