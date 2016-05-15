@@ -419,3 +419,64 @@ footer
     line-height: 72px
     text-align: center
     margin: 60px 30px 30px
+
+  .project-tags
+    text-align: center
+    //weird fix to get rid of space between inline-block children
+    font-size: 0
+    margin: 0
+
+    .project-tag
+      display: inline-block
+      padding: 15px
+      border: none
+
+      h3
+        font-family: 'Roboto', sans-serif
+        font-size: 24px
+        color: white
+        margin: 0
+        padding: 0
+
+    .color-1
+      background: $orange-two
+
+    .color-2
+      background: $orange-three
+
+    .color-3
+      background: $orange-five
+
+    .color-4
+      background: $orange-six
+
+  .project-description
+    display: block
+    width: 1200px
+    margin: 30px auto
+    font-family: 'Open Sans', sans-serif
+    font-size: 18px
+    line-height: 24px
+    color: $dark-gray
+
+  .project-buttons
+    text-align: center
+    font-size: 0px
+    overflow: auto
+
+    .button, .button:visited
+      display: inline-block
+      border: $orange-six solid 3px
+      background: $orange-two
+      width: 234px
+      padding: 15px 0
+      margin: 0 15px
+      color: $orange-six
+      font-size: 20px
+      font-family: 'Roboto', sans-serif
+      text-decoration: none
+
+    .button:hover, .button:active
+      background: $orange-six
+      color: white
+      transition: 1s
