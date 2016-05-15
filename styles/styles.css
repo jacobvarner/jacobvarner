@@ -375,5 +375,45 @@ footer {
       background: #dd550c;
       color: white;
       transition: 1s; }
+  .project .project-images {
+    display: block;
+    width: 960px;
+    padding: 30px;
+    margin: 30px auto; }
+    .project .project-images .image-main {
+      width: 900px;
+      margin: 0;
+      box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.75);
+      float: left; }
+    .project .project-images .sub-image-1 {
+      width: 280px;
+      margin: 20px 10px;
+      box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.75);
+      float: left; }
+    .project .project-images .sub-image-2 {
+      width: 280px;
+      margin: 20px 10px;
+      box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.75);
+      float: left; }
+    .project .project-images .sub-image-3 {
+      width: 280px;
+      margin: 20px 10px;
+      box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.75);
+      float: left; }
+    .project .project-images .sub-image-1:hover {
+      width: 300px;
+      margin: 10px 0px;
+      cursor: pointer;
+      cursor: hand; }
+    .project .project-images .sub-image-2:hover {
+      width: 300px;
+      margin: 10px 0px;
+      cursor: pointer;
+      cursor: hand; }
+    .project .project-images .sub-image-3:hover {
+      width: 300px;
+      margin: 10px 0px;
+      cursor: pointer;
+      cursor: hand; }
 
 /*# sourceMappingURL=styles.css.map */
