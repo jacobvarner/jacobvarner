@@ -377,9 +377,10 @@ footer {
       transition: 1s; }
   .project .project-images {
     display: block;
-    width: 960px;
+    width: 900px;
     padding: 30px;
-    margin: 30px auto; }
+    margin: 30px auto;
+    overflow: auto; }
     .project .project-images .image-main {
       width: 900px;
       margin: 0;
@@ -415,5 +416,54 @@ footer {
       margin: 10px 0px;
       cursor: pointer;
       cursor: hand; }
+
+.other-projects {
+  display: block;
+  width: 1200px;
+  padding: 30px;
+  margin: 0px auto;
+  overflow: auto; }
+  .other-projects a .project-box, .other-projects a:visited .project-box {
+    display: block;
+    float: left;
+    margin: 0;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    position: relative; }
+    .other-projects a .project-box h3, .other-projects a:visited .project-box h3 {
+      font-family: "Roboto", sans-serif;
+      font-size: 30px;
+      margin: 0;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      color: white; }
+    .other-projects a .project-box h2, .other-projects a:visited .project-box h2 {
+      font-family: "Roboto", sans-serif;
+      font-size: 30px;
+      margin: 0;
+      position: absolute;
+      left: 15px;
+      bottom: 15px;
+      color: white; }
+  .other-projects a .color-1, .other-projects a:visited .color-1 {
+    background: #ffb38a; }
+  .other-projects a .color-2, .other-projects a:visited .color-2 {
+    background: #fe9148; }
+  .other-projects a .color-3, .other-projects a:visited .color-3 {
+    background: #ff6700; }
+  .other-projects a .color-4, .other-projects a:visited .color-4 {
+    background: #dd550c; }
+  .other-projects a:hover .project-box {
+    z-index: 1; }
+  .other-projects a:hover .color-1 {
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.5); }
+  .other-projects a:hover .color-2 {
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.5); }
+  .other-projects a:hover .color-3 {
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.5); }
+  .other-projects a:hover .color-4 {
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.5); }
 
 /*# sourceMappingURL=styles.css.map */
