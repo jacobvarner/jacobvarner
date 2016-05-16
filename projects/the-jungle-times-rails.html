@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Jungle Times | Jacob Varner</title>
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/normalize.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:700|Open+Sans:400,400italic' rel='stylesheet' type='text/css' />
+    <script src="../js/scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <a id="logo" href="../index.html">JV</a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Projects</a></li>
+            <li><a href="../resume.html">Resume</a></li>
+            <li><a href="../about-me.html">About Me</a></li>
+            <li><a href="https://github.com/jacobvarner"><img src="../images/github-dark.png" height="32px" /></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="project">
+      <h1>The Jungle Times</h1>
+      <div class="project-tags">
+        <div class="project-tag color-3">
+          <h3>Ruby on Rails</h3>
+        </div>
+        <div class="project-tag color-4">
+          <h3>Sass</h3>
+        </div>
+        <div class="project-tag color-2">
+          <h3>MySQL</h3>
+        </div>
+      </div>
+      <p class="project-description">This version of The Jungle Times that was written in Ruby on Rails was a second attempt to build my own blog and a chance to self-teach myself the Ruby on Rails framework. Rails seemed much easier to get started with and I felt that I was able to produce a much better final product. After building the back-end in Ruby on Rails, I felt I did one of my best jobs at the time in styling the website using Sass. Upon completing the development of this project right before basketballs season in the fall of 2015, I got the chance to learn how to set up my own virtual host to hold my web application. Once hosted, I continued to write and produce content focused on Auburn and SEC Basketball. Currently I am not writing pieces for The Jungle Times but I am thinking of re-doing it once again with Meteor.js and possibly turining it into a side blog for me to share my thoughts on college basketball as a whole and not just limit myself to Auburn Basketball.</p>
+      <div class="project-buttons">
+        <a class="button" href="https://www.github.com/jacobvarner/aujungletimes">View Code on GitHub</a>
+        <a class="button" href="http://www.aujungletimes.com">View Live Version</a>
+      </div>
+      <div class="project-images">
+        <img id="image-main" src="../images/projects/the-jungle-times-1.jpg" />
+        <img id="sub-image-1" onClick="changeImage(this);" src="../images/projects/the-jungle-times-2.jpg" />
+        <img id="sub-image-2" onClick="changeImage(this);" src="../images/projects/the-jungle-times-3.jpg" />
+        <img id="sub-image-3" onClick="changeImage(this);" src="../images/projects/the-jungle-times-4.jpg" />
+      </div>
+    </section>
+    <div class="other-projects">
+      <a href="auburn-basketball-stats.html">
+        <div class="project-box color-2">
+          <h3 class="language">Meteor.js</h3>
+          <h2 class="project-title">Auburn Basketball Stats</h2>
+        </div>
+      </a>
+      <a href="random-restaurant-picker.html">
+        <div class="project-box color-4">
+          <h3 class="language">Meteor.js</h3>
+          <h2 class="project-title">Random Restaurant Picker</h2>
+        </div>
+      </a>
+      <a href="souths-best.html">
+        <div class="project-box color-1">
+          <h3 class="language">HTML</h3>
+          <h2 class="project-title">South's BEST</h2>
+        </div>
+      </a>
+      <a href="the-jungle-times-php.html">
+        <div class="project-box color-3">
+          <h3 class="language">PHP</h3>
+          <h2 class="project-title">The Jungle Times (Original)</h2>
+        </div>
+      </a>
+    </div>
+    <footer>
+      <p>Jacob Varner &copy; 2016 | Last Updated: <script>lastUpdate();</script></p>
+    </footer>
+  </body>
+</html>
