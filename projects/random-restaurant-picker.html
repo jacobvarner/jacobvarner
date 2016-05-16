@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Restaurant Picker | Jacob Varner</title>
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/normalize.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:700|Open+Sans:400,400italic' rel='stylesheet' type='text/css' />
+    <script src="../js/scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <a id="logo" href="../index.html">JV</a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Projects</a></li>
+            <li><a href="../resume.html">Resume</a></li>
+            <li><a href="../about-me.html">About Me</a></li>
+            <li><a href="https://github.com/jacobvarner"><img src="../images/github-dark.png" height="32px" /></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="project">
+      <h1>Random Restaurant Picker</h1>
+      <div class="project-tags">
+        <div class="project-tag color-3">
+          <h3>Meteor.js</h3>
+        </div>
+        <div class="project-tag color-1">
+          <h3>Blaze</h3>
+        </div>
+        <div class="project-tag color-4">
+          <h3>Sass</h3>
+        </div>
+        <div class="project-tag color-2">
+          <h3>MongoDB</h3>
+        </div>
+      </div>
+      <p class="project-description">My Random Restaurant Picker was a quick project that I set out to complete in one night that would solve one of my daily problems at work: deciding where I wanted to go to work. I hava a handful of restaurants that I like and are close enough to my office so choosing once each day can be a small task. Since I was getting better at Meteor at the time, I decided to see if I could make this simple app in just one evening. At the end of the evening I had developed, and styled a simple app that would allow me, or others, to create an account, add restaurants, and then randomize them any time I wanted to help me decide on a place to eat. For a short time I had this hosted on a small free server so my co-workers could use it as well, but now it just resides on my local machine for my enjoyment.</p>
+      <div class="project-buttons">
+        <a class="button" href="https://www.github.com/jacobvarner/random-restaurant">View Code on GitHub</a>
+      </div>
+      <div class="project-images">
+        <img id="image-main" src="../images/projects/random-restaurant-picker-1.jpg" />
+        <img id="sub-image-1" onClick="changeImage(this);" src="../images/projects/random-restaurant-picker-2.jpg" />
+        <img id="sub-image-2" onClick="changeImage(this);" src="../images/projects/random-restaurant-picker-3.jpg" />
+        <img id="sub-image-3" onClick="changeImage(this);" src="../images/projects/random-restaurant-picker-4.jpg" />
+      </div>
+    </section>
+    <div class="other-projects">
+      <a href="auburn-basketball-stats.html">
+        <div class="project-box color-2">
+          <h3 class="language">Meteor.js</h3>
+          <h2 class="project-title">Auburn Basketball Stats</h2>
+        </div>
+      </a>
+      <a href="the-jungle-times-rails.html">
+        <div class="project-box color-4">
+          <h3 class="language">Ruby on Rails</h3>
+          <h2 class="project-title">The Jungle Times</h2>
+        </div>
+      </a>
+      <a href="souths-best.html">
+        <div class="project-box color-1">
+          <h3 class="language">HTML</h3>
+          <h2 class="project-title">South's BEST</h2>
+        </div>
+      </a>
+      <a href="the-jungle-times-php.html">
+        <div class="project-box color-3">
+          <h3 class="language">PHP</h3>
+          <h2 class="project-title">The Jungle Times (Original)</h2>
+        </div>
+      </a>
+    </div>
+    <footer>
+      <p>Jacob Varner &copy; 2016 | Last Updated: <script>lastUpdate();</script></p>
+    </footer>
+  </body>
+</html>
