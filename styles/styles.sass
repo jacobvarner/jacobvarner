@@ -14,40 +14,41 @@ $orange-six: #dd550c
 
 .nav-bar
   background: white
-  height: 80px
+  height: 60px
   width: 100%
-  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.75)
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.50)
   position: fixed
   top: 0
-  z-index: 2
+  z-index: 3
 
   #logo:active, #logo:visited, #logo, #logo:hover
-    font-size: 48px
+    font-size: 40px
+    line-height: 40px
     color: $orange-five
     font-family: 'Roboto', sans-serif
     font-weight: bold
     text-decoration: none
-    margin: 12.665px 40px
+    margin: 10px 40px
     float: left
 
-  nav
+  nav#desktop-nav
     float: right
-    height: 80px
+    height: 60px
     margin: 0px 40px
     display: block
 
     ul
-      height: 32px
-      margin: 24px 0
+      height: 24px
+      margin: 18px 0
       padding: 0
       list-style: none
 
       li
         display: inline-block
-        height: 32px
+        height: 24px
 
         a, a:active, a:visited
-          font-size: 24px
+          font-size: 18px
           font-weight: bold
           font-family: 'Roboto', sans-serif
           text-decoration: none
@@ -55,7 +56,7 @@ $orange-six: #dd550c
           margin: 2px 10px
           float: right
         a:hover
-          font-size: 24px
+          font-size: 18px
           font-weight: bold
           font-family: 'Roboto', sans-serif
           text-decoration: none
@@ -64,16 +65,75 @@ $orange-six: #dd550c
           float: right
 
         img
-          height: 32px
+          height: 24px
           margin: -2.165px 0 0 0
           padding: 0
+
+    @media only screen and (max-width: 600px)
+      display: none
+
+  #menu-button, #menu-button:hover, #menu-button:visited, #menu-button:active
+    display: none
+    float: right
+    height: 30px
+    width: 30px
+    margin: 15px 30px
+
+    img
+      height: 30px
+
+    @media only screen and (max-width: 600px)
+      display: block
+
+
+nav#mobile-nav
+  display: none
+  width: 100%
+  background: white
+  position: fixed
+  top: 60px
+  z-index: 2
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.50)
+  transition: 0.5s
+
+  ul
+    list-style: none
+    float: right
+    margin: 15px
+
+    li
+      display: block
+      height: 24px
+      padding: 10px 0
+
+      a, a:active, a:visited
+        font-size: 18px
+        font-weight: bold
+        font-family: 'Roboto', sans-serif
+        text-decoration: none
+        color: $orange-five
+        margin: 2px 10px
+        float: right
+      a:hover
+        font-size: 18px
+        font-weight: bold
+        font-family: 'Roboto', sans-serif
+        text-decoration: none
+        color: $orange-three
+        margin: 2px 10px
+        float: right
+
+      img
+        height: 24px
+        margin: -2.165px 0 0 0
+        padding: 0
 
 /////////////////
 // HOME BANNER //
 /////////////////
 
 .banner
-  margin: 80px 0 0 0
+  margin: 60px 0 0 0
   width: 100%
   height: 600px
   background: url(../images/orange-tile.png) repeat
@@ -87,6 +147,9 @@ $orange-six: #dd550c
     font-family: 'Roboto', sans-serif
     text-align: center
     margin: 145px 0 0 0
+
+    @media only screen and (max-width: 768px)
+      font-size: 72px
 
   h2
     text-shadow: 0px 5px 25px rgba(0, 0, 0, 0.75)
@@ -261,7 +324,7 @@ $orange-six: #dd550c
 
 footer
   width: 100%
-  height: 80px
+  height: 60px
   text-align: center
   background: $orange-five
   margin-top: 30px
@@ -269,8 +332,8 @@ footer
   p
     color: white
     font-family: 'Roboto', sans-serif
-    font-size: 18px
-    line-height: 80px
+    font-size: 14px
+    line-height: 60px
 
 //////////////
 // ABOUT ME //
