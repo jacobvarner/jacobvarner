@@ -76,11 +76,15 @@ nav#mobile-nav {
   nav#mobile-nav ul {
     list-style: none;
     float: right;
-    margin: 15px; }
+    padding: 0;
+    margin: 15px 15px 10px; }
     nav#mobile-nav ul li {
-      display: block;
+      display: inline-block;
       height: 24px;
       padding: 10px 0; }
+      @media only screen and (max-width: 360px) {
+        nav#mobile-nav ul li {
+          display: block; } }
       nav#mobile-nav ul li a, nav#mobile-nav ul li a:active, nav#mobile-nav ul li a:visited {
         font-size: 18px;
         font-weight: bold;
