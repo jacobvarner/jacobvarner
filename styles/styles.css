@@ -14,8 +14,11 @@
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     text-decoration: none;
-    margin: 10px 40px;
+    margin: 10px 30px;
     float: left; }
+    @media only screen and (max-width: 360px) {
+      .nav-bar #logo:active, .nav-bar #logo:visited, .nav-bar #logo, .nav-bar #logo:hover {
+        margin: 10px; } }
   .nav-bar nav#desktop-nav {
     float: right;
     height: 60px;
@@ -57,7 +60,7 @@
     float: right;
     height: 30px;
     width: 30px;
-    margin: 15px 30px; }
+    margin: 15px; }
     .nav-bar #menu-button img, .nav-bar #menu-button:hover img, .nav-bar #menu-button:visited img, .nav-bar #menu-button:active img {
       height: 30px; }
     @media only screen and (max-width: 600px) {
