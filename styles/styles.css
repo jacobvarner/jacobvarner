@@ -108,6 +108,18 @@ nav#mobile-nav {
   height: 600px;
   background: url(../images/orange-tile.png) repeat;
   overflow: auto; }
+  @media only screen and (max-width: 769px) {
+    .banner {
+      height: 500px; } }
+  @media only screen and (max-width: 601px) {
+    .banner {
+      height: 400px; } }
+  @media only screen and (max-width: 440px) {
+    .banner {
+      height: 280px; } }
+  @media only screen and (max-width: 360px) {
+    .banner {
+      height: 240px; } }
   .banner h1 {
     text-shadow: 0px 5px 25px rgba(0, 0, 0, 0.75);
     font-size: 100px;
@@ -116,9 +128,22 @@ nav#mobile-nav {
     font-family: "Roboto", sans-serif;
     text-align: center;
     margin: 145px 0 0 0; }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 769px) {
       .banner h1 {
-        font-size: 72px; } }
+        font-size: 72px;
+        margin: 120px 0 0 0; } }
+    @media only screen and (max-width: 601px) {
+      .banner h1 {
+        font-size: 60px;
+        margin: 100px 0 0 0; } }
+    @media only screen and (max-width: 440px) {
+      .banner h1 {
+        font-size: 42px;
+        margin: 72px 0 0 0; } }
+    @media only screen and (max-width: 360px) {
+      .banner h1 {
+        font-size: 36px;
+        margin: 60px 0 0 0; } }
   .banner h2 {
     text-shadow: 0px 5px 25px rgba(0, 0, 0, 0.75);
     font-size: 60px;
@@ -126,6 +151,21 @@ nav#mobile-nav {
     font-family: "Roboto", sans-serif;
     text-align: center;
     margin: 30px 0; }
+    @media only screen and (max-width: 769px) {
+      .banner h2 {
+        font-size: 48px; } }
+    @media only screen and (max-width: 601px) {
+      .banner h2 {
+        font-size: 36px;
+        margin: 20px 0; } }
+    @media only screen and (max-width: 440px) {
+      .banner h2 {
+        font-size: 24px;
+        margin: 15px 0; } }
+    @media only screen and (max-width: 360px) {
+      .banner h2 {
+        font-size: 20px;
+        margin: 10px 0; } }
   .banner h3 {
     text-shadow: 0px 5px 25px rgba(0, 0, 0, 0.75);
     font-size: 36px;
@@ -133,6 +173,15 @@ nav#mobile-nav {
     font-family: "Roboto", sans-serif;
     text-align: center;
     margin: 0; }
+    @media only screen and (max-width: 601px) {
+      .banner h3 {
+        font-size: 28px; } }
+    @media only screen and (max-width: 440px) {
+      .banner h3 {
+        font-size: 20px; } }
+    @media only screen and (max-width: 360px) {
+      .banner h3 {
+        font-size: 18px; } }
 
 .boxes {
   width: 100%;
