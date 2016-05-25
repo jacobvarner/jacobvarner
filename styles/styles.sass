@@ -279,6 +279,7 @@ nav#mobile-nav
       margin: 15px
       padding: 0
       position: relative
+      font-size: 0
 
       @media only screen and (max-width: 600px)
         height: auto
@@ -352,7 +353,7 @@ nav#mobile-nav
 
       .button-21, :visited
         display: block
-        width: 164px
+        width: 168px
         border: $orange-six solid 3px
         background: $orange-two
         height: 24px
@@ -376,6 +377,7 @@ nav#mobile-nav
         @media only screen and (max-width: 410px)
           width: 274px
           margin: 10px
+          display: block
 
       .button-21:hover, :active
         background: $orange-six
@@ -384,7 +386,7 @@ nav#mobile-nav
 
       .button-22, :visited
         display: block
-        width: 164px
+        width: 168px
         border: $orange-six solid 3px
         background: $orange-two
         height: 24px
@@ -402,11 +404,13 @@ nav#mobile-nav
 
         @media only screen and (max-width: 600px)
           display: inline-block
-          margin: 10px
+          margin: 10px 10px 10px 5px
           position: relative
 
         @media only screen and (max-width: 410px)
           width: 274px
+          margin: 10px
+          display: block
 
       .button-22:hover, :active
         background: $orange-six
@@ -469,11 +473,19 @@ footer
   background: $orange-five
   margin-top: 30px
 
+  @media only screen and (max-width: 410px)
+    height: 40px
+    margin-top: 15px
+
   p
     color: white
     font-family: 'Roboto', sans-serif
     font-size: 14px
     line-height: 60px
+
+    @media only screen and (max-width: 410px)
+      font-size: 12px
+      line-height: 40px
 
 //////////////
 // ABOUT ME //

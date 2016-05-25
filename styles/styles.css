@@ -239,7 +239,8 @@ nav#mobile-nav {
       box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.75);
       margin: 15px;
       padding: 0;
-      position: relative; }
+      position: relative;
+      font-size: 0; }
       @media only screen and (max-width: 600px) {
         .boxes .box-container .box {
           height: auto;
@@ -306,7 +307,7 @@ nav#mobile-nav {
         transition: 1s; }
       .boxes .box-container .box .button-21, .boxes .box-container .box :visited {
         display: block;
-        width: 164px;
+        width: 168px;
         border: #dd550c solid 3px;
         background: #ffb38a;
         height: 24px;
@@ -329,14 +330,15 @@ nav#mobile-nav {
         @media only screen and (max-width: 410px) {
           .boxes .box-container .box .button-21, .boxes .box-container .box :visited {
             width: 274px;
-            margin: 10px; } }
+            margin: 10px;
+            display: block; } }
       .boxes .box-container .box .button-21:hover, .boxes .box-container .box :active {
         background: #dd550c;
         color: white;
         transition: 1s; }
       .boxes .box-container .box .button-22, .boxes .box-container .box :visited {
         display: block;
-        width: 164px;
+        width: 168px;
         border: #dd550c solid 3px;
         background: #ffb38a;
         height: 24px;
@@ -354,11 +356,13 @@ nav#mobile-nav {
         @media only screen and (max-width: 600px) {
           .boxes .box-container .box .button-22, .boxes .box-container .box :visited {
             display: inline-block;
-            margin: 10px;
+            margin: 10px 10px 10px 5px;
             position: relative; } }
         @media only screen and (max-width: 410px) {
           .boxes .box-container .box .button-22, .boxes .box-container .box :visited {
-            width: 274px; } }
+            width: 274px;
+            margin: 10px;
+            display: block; } }
       .boxes .box-container .box .button-22:hover, .boxes .box-container .box :active {
         background: #dd550c;
         color: white;
@@ -408,11 +412,19 @@ footer {
   text-align: center;
   background: #ff6700;
   margin-top: 30px; }
+  @media only screen and (max-width: 410px) {
+    footer {
+      height: 40px;
+      margin-top: 15px; } }
   footer p {
     color: white;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     line-height: 60px; }
+    @media only screen and (max-width: 410px) {
+      footer p {
+        font-size: 12px;
+        line-height: 40px; } }
 
 #about-me {
   margin-top: 80px;
