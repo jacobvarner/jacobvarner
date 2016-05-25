@@ -2,14 +2,18 @@
 <html>
   <head>
     <title>Resume | Jacob Varner</title>
-    <link rel="stylesheet" type="text/css" href="styles/resume.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="styles/resume.css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto:700|Open+Sans:400,400italic' rel='stylesheet' type='text/css' />
   </head>
   <body>
     <div id="floating-links">
       <a class="button" href="resume.pdf">Download as PDF</a>
-      <a class="link" href="index.html"><< Back to site</a>
+      <!-- Code from StackOverflow that goes back to the last page instead of just to the home page: http://stackoverflow.com/questions/8814472/how-to-make-an-html-back-link -->
+      <a class="link" href="javascript:history.back()"><< Back to Site</a>
     </div>
     <h1 id="name">Jacob Varner</h1>
     <div id="contact-info">

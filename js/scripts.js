@@ -24,3 +24,17 @@ function toggleMenu() {
     document.getElementById("menu-button").className = "closed";
   }
 }
+
+function toggleMenuProjects() {
+  var menuStatus = document.getElementById("menu-button").className;
+
+  if (menuStatus === "closed") {
+    document.getElementById("mobile-nav").style.display = "block";
+    document.getElementById("menu-icon").src = "../images/menu-icon-close.png";
+    document.getElementById("menu-button").className = "open";
+  } else {
+    document.getElementById("mobile-nav").style.display = "none";
+    document.getElementById("menu-icon").src = "../images/menu-icon.png";
+    document.getElementById("menu-button").className = "closed";
+  }
+}
