@@ -21,6 +21,9 @@ $orange-six: #dd550c
   top: 0
   z-index: 3
 
+  @media only screen and (max-width: 601px)
+    height: 40px
+
   #logo:active, #logo:visited, #logo, #logo:hover
     font-size: 40px
     line-height: 40px
@@ -31,7 +34,9 @@ $orange-six: #dd550c
     margin: 10px 30px
     float: left
 
-    @media only screen and (max-width: 360px)
+    @media only screen and (max-width: 601px)
+      font-size: 20px
+      line-height: 20px
       margin: 10px
 
   nav#desktop-nav
@@ -78,14 +83,14 @@ $orange-six: #dd550c
   #menu-button, #menu-button:hover, #menu-button:visited, #menu-button:active
     display: none
     float: right
-    height: 30px
-    width: 30px
-    margin: 15px
+    height: 20px
+    width: 20px
+    margin: 10px
 
     img
-      height: 30px
+      height: 20px
 
-    @media only screen and (max-width: 600px)
+    @media only screen and (max-width: 601px)
       display: block
 
 
@@ -94,10 +99,9 @@ nav#mobile-nav
   width: 100%
   background: white
   position: fixed
-  top: 60px
+  top: 40px
   z-index: 2
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.50)
-  transition: 0.5s
 
   ul
     list-style: none
@@ -142,86 +146,99 @@ nav#mobile-nav
 .banner
   margin: 60px 0 0 0
   width: 100%
-  height: 600px
-  background: url(../images/orange-tile.png) repeat
+  background: url(../images/orange-tile.png) repeat center
   overflow: auto
 
-  @media only screen and (max-width: 769px)
-    height: 500px
-
   @media only screen and (max-width: 601px)
-    height: 400px
-
-  @media only screen and (max-width: 440px)
-    height: 280px
-
-  @media only screen and (max-width: 360px)
-    height: 240px
+    margin: 40px 0 0 0
 
   h1
     text-shadow: 0px 5px 25px rgba(0, 0, 0, 0.75)
     font-size: 100px
+    line-height: 100px
     color: white
     text-transform: uppercase
     font-family: 'Roboto', sans-serif
     text-align: center
-    margin: 145px 0 0 0
+    margin: 200px 30px 0
 
-    @media only screen and (max-width: 769px)
-      font-size: 72px
+    @media only screen and (max-width: 870px)
+      font-size: 80px
+      line-height: 80px
+      margin: 160px 0 0 0
+
+    @media only screen and (max-width: 706px)
+      font-size: 60px
+      line-height: 60px
       margin: 120px 0 0 0
 
-    @media only screen and (max-width: 601px)
-      font-size: 60px
-      margin: 100px 0 0 0
+    @media only screen and (max-width: 544px)
+      font-size: 40px
+      line-height: 40px
+      margin: 80px 0 0 0
 
-    @media only screen and (max-width: 440px)
-      font-size: 42px
-      margin: 72px 0 0 0
-
-    @media only screen and (max-width: 360px)
-      font-size: 36px
-      margin: 60px 0 0 0
+    @media only screen and (max-width: 382px)
+      font-size: 32px
+      line-height: 32px
+      margin: 64px 0 0 0
 
   h2
     text-shadow: 0px 5px 25px rgba(0, 0, 0, 0.75)
     font-size: 60px
+    line-height: 60px
     color: white
     font-family: 'Roboto', sans-serif
     text-align: center
-    margin: 30px 0
+    margin: 30px
 
-    @media only screen and (max-width: 769px)
+    @media only screen and (max-width: 870px)
       font-size: 48px
+      line-height: 48px
+      margin: 24px 30px
 
-    @media only screen and (max-width: 601px)
+    @media only screen and (max-width: 706px)
       font-size: 36px
-      margin: 20px 0
+      line-height: 36px
+      margin: 18px 30px
 
-    @media only screen and (max-width: 440px)
+    @media only screen and (max-width: 544px)
       font-size: 24px
-      margin: 15px 0
+      line-height: 24px
+      margin: 12px 30px
 
-    @media only screen and (max-width: 360px)
-      font-size: 20px
-      margin: 10px 0
+    @media only screen and (max-width: 382px)
+      font-size: 19px
+      line-height: 19px
+      margin: 6px 30px
 
   h3
     text-shadow: 0px 5px 25px rgba(0, 0, 0, 0.75)
-    font-size: 36px
+    font-size: 40px
+    line-height: 40px
     color: white
     font-family: 'Roboto', sans-serif
     text-align: center
-    margin: 0
+    margin: 0 0 200px 0
 
-    @media only screen and (max-width: 601px)
-      font-size: 28px
+    @media only screen and (max-width: 870px)
+      font-size: 32px
+      line-height: 32px
+      margin: 0 0 160px 0
 
-    @media only screen and (max-width: 440px)
-      font-size: 20px
+    @media only screen and (max-width: 706px)
+      font-size: 24px
+      line-height: 24px
+      margin: 0 0 120px 0
 
-    @media only screen and (max-width: 360px)
-      font-size: 18px
+    @media only screen and (max-width: 544px)
+      font-size: 16px
+      line-height: 16px
+      margin: 0 0 80px 0
+
+    @media only screen and (max-width: 382px)
+      font-size: 13px
+      line-height: 13px
+      margin: 0 0 64px 0
 
 ////////////////
 // HOME BOXES //
@@ -263,12 +280,14 @@ nav#mobile-nav
       padding: 0
       position: relative
 
-      @media only screen and (max-width: 410px)
-        width: 300px
-        float: none
-        margin: 15px auto
+      @media only screen and (max-width: 600px)
         height: auto
         overflow: auto
+        float: none
+
+      @media only screen and (max-width: 410px)
+        width: 300px
+        margin: 15px auto
 
       .box-heading
         display: block
@@ -295,7 +314,7 @@ nav#mobile-nav
         margin: 11px
         text-align: left
 
-        @media only screen and (max-width: 410px)
+        @media only screen and (max-width: 600px)
           font-size: 12px
 
         a, a:active, a:hover, a:visited
@@ -319,10 +338,12 @@ nav#mobile-nav
         position: absolute
         bottom: 0
 
-        @media only screen and (max-width: 410px)
-          width: 274px
+        @media only screen and (max-width: 600px)
           margin: 10px
           position: relative
+
+        @media only screen and (max-width: 410px)
+          width: 274px
 
       .button-1:hover, :active
         background: $orange-six
@@ -347,10 +368,14 @@ nav#mobile-nav
         bottom: 0
         left: 0
 
+        @media only screen and (max-width: 600px)
+          display: inline-block
+          margin: 10px 5px 10px 10px
+          position: relative
+
         @media only screen and (max-width: 410px)
           width: 274px
           margin: 10px
-          position: relative
 
       .button-21:hover, :active
         background: $orange-six
@@ -375,10 +400,13 @@ nav#mobile-nav
         bottom: 0
         right: 0
 
-        @media only screen and (max-width: 410px)
-          width: 274px
+        @media only screen and (max-width: 600px)
+          display: inline-block
           margin: 10px
           position: relative
+
+        @media only screen and (max-width: 410px)
+          width: 274px
 
       .button-22:hover, :active
         background: $orange-six
