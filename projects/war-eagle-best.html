@@ -2,8 +2,11 @@
 <html>
   <head>
     <title>War Eagle BEST | Jacob Varner</title>
-    <link rel="stylesheet" type="text/css" href="../styles/styles.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" type="text/css" href="../styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto:700|Open+Sans:400,400italic' rel='stylesheet' type='text/css' />
     <script src="../js/scripts.js"></script>
   </head>
@@ -11,15 +14,24 @@
     <header>
       <div class="nav-bar">
         <a id="logo" href="../index.html">JV</a>
-        <nav>
+        <nav id="desktop-nav">
           <ul>
             <li><a href="index.html">Projects</a></li>
             <li><a href="../resume.html">Resume</a></li>
             <li><a href="../about-me.html">About Me</a></li>
-            <li><a href="https://github.com/jacobvarner"><img src="../images/github-dark.png" height="32px" /></a></li>
+            <li><a href="https://github.com/jacobvarner"><img src="../images/github-dark.png" /></a></li>
           </ul>
         </nav>
+        <a id="menu-button" class="closed" onClick="toggleMenuProjects()"><img id="menu-icon" src="../images/menu-icon.png" /></a>
       </div>
+      <nav id="mobile-nav">
+        <ul>
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="../resume.html">Resume</a></li>
+          <li><a href="../about-me.html">About Me</a></li>
+          <li><a href="https://github.com/jacobvarner"><img src="../images/github-dark.png" /></a></li>
+        </ul>
+      </nav>
     </header>
     <section class="project">
       <h1>War Eagle BEST</h1>
