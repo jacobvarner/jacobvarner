@@ -644,9 +644,12 @@ footer
 //////////////////
 
 .project
-  margin-top: 80px
+  margin-top: 60px
   width: 100%
   overflow: auto
+
+  @media only screen and (max-width: 600px)
+    margin-top: 40px
 
   h1
     color: $dark-gray
@@ -772,6 +775,12 @@ footer
   padding: 30px
   margin: 0px auto
   overflow: auto
+
+  @media only screen and (max-width: 1260px)
+    width: 600px
+
+  @media only screen and (max-width: 660px)
+    width: 300px
 
   a, a:visited
 
