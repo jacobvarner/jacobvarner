@@ -509,12 +509,20 @@ footer {
   #about-me #about-me-text {
     width: 900px;
     display: block;
-    margin: 60px auto 30px; }
+    margin: 30px auto; }
+    @media only screen and (max-width: 960px) {
+      #about-me #about-me-text {
+        width: auto;
+        margin: 30px; } }
     #about-me #about-me-text p {
       font-size: 16px;
       font-family: "Open Sans", sans-serif;
       line-height: 24px;
       color: #555555; }
+      @media only screen and (max-width: 600px) {
+        #about-me #about-me-text p {
+          font-size: 14px;
+          line-height: 22px; } }
     #about-me #about-me-text a, #about-me #about-me-text :visited, #about-me #about-me-text :active {
       color: #ff6700;
       text-decoration: none; }
