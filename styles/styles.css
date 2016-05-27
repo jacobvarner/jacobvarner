@@ -439,18 +439,73 @@ footer {
     font-size: 72px;
     line-height: 72px;
     text-align: center;
-    margin: 60px 30px; }
+    margin: 40px 30px 30px; }
+    @media only screen and (max-width: 600px) {
+      #about-me h1 {
+        font-size: 50px;
+        line-height: 50px; } }
   #about-me #about-me-images {
     display: block;
     width: 1200px;
     margin: 0px auto;
     height: 300px; }
+    @media only screen and (max-width: 1260px) {
+      #about-me #about-me-images {
+        width: 800px;
+        height: 200px; } }
+    @media only screen and (max-width: 860px) {
+      #about-me #about-me-images {
+        width: 600px;
+        height: 600px; } }
+    @media only screen and (max-width: 660px) {
+      #about-me #about-me-images {
+        width: 400px;
+        height: 400px; } }
+    @media only screen and (max-width: 460px) {
+      #about-me #about-me-images {
+        width: 300px;
+        height: 300px; } }
     #about-me #about-me-images .about-me-image {
-      float: left; }
+      float: left;
+      height: 300px;
+      width: 300px; }
+      @media only screen and (max-width: 1260px) {
+        #about-me #about-me-images .about-me-image {
+          height: 200px;
+          width: 200px; } }
+      @media only screen and (max-width: 860px) {
+        #about-me #about-me-images .about-me-image {
+          width: 300px;
+          height: 300px; } }
+      @media only screen and (max-width: 660px) {
+        #about-me #about-me-images .about-me-image {
+          width: 200px;
+          height: 200px; } }
+      @media only screen and (max-width: 460px) {
+        #about-me #about-me-images .about-me-image {
+          width: 150px;
+          height: 150px; } }
       #about-me #about-me-images .about-me-image img {
         height: 300px;
+        width: 300px;
         margin: 0;
         padding: 0; }
+        @media only screen and (max-width: 1260px) {
+          #about-me #about-me-images .about-me-image img {
+            height: 200px;
+            width: 200px; } }
+        @media only screen and (max-width: 860px) {
+          #about-me #about-me-images .about-me-image img {
+            width: 300px;
+            height: 300px; } }
+        @media only screen and (max-width: 660px) {
+          #about-me #about-me-images .about-me-image img {
+            width: 200px;
+            height: 200px; } }
+        @media only screen and (max-width: 460px) {
+          #about-me #about-me-images .about-me-image img {
+            width: 150px;
+            height: 150px; } }
   #about-me #about-me-text {
     width: 900px;
     display: block;
