@@ -231,17 +231,49 @@ $orange-six: #dd550c
     margin: 15px auto
     overflow: auto
 
+    @media only screen and (max-width: 960px)
+      width: 600px
+
+    @media only screen and (max-width: 660px)
+      width: 300px
+
     h3
       color: $darkest-gray
       font-family: 'Roboto', sans-serif
       font-size: 24px
       margin: 0
 
+      @media only screen and (max-width: 960px)
+        font-size: 20px
+
+      span
+        font-size: 20px
+
+        @media only screen and (max-width: 960px)
+          font-size: 16px
+
+        @media only screen and (max-width: 660px)
+          display: block
+          width: 300px
+
     h4
       color: $darkest-gray
       font-family: 'Roboto', sans-serif
       font-size: 18px
       margin: 5px 0
+
+      @media only screen and (max-width: 960px)
+        font-size: 16px
+
+      span
+        font-size: 14px
+
+        @media only screen and (max-width: 960px)
+          font-size: 12px
+
+        @media only screen and (max-width: 660px)
+          display: block
+          width: 300px
 
     ul
       margin: 0
@@ -252,6 +284,9 @@ $orange-six: #dd550c
       font-size: 14px
       line-height: 18px
       color: $dark-gray
+
+      @media only screen and (max-width: 960px)
+        font-size: 12px
 
       li
         margin: 5px 0
@@ -264,7 +299,7 @@ $orange-six: #dd550c
   width: 100%
   background: $light-gray
   overflow: auto
-  margin: 30px 0 15px
+  margin: 0
 
   h2
     text-align: center
@@ -353,7 +388,7 @@ $orange-six: #dd550c
   width: 100%
   background: $light-gray
   overflow: auto
-  margin: 30px 0 30px
+  margin: 0px 0 30px
 
   h2
     text-align: center

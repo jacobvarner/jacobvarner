@@ -188,16 +188,46 @@
     width: 900px;
     margin: 15px auto;
     overflow: auto; }
+    @media only screen and (max-width: 960px) {
+      #resume-experience .experience-div {
+        width: 600px; } }
+    @media only screen and (max-width: 660px) {
+      #resume-experience .experience-div {
+        width: 300px; } }
     #resume-experience .experience-div h3 {
       color: #333333;
       font-family: "Roboto", sans-serif;
       font-size: 24px;
       margin: 0; }
+      @media only screen and (max-width: 960px) {
+        #resume-experience .experience-div h3 {
+          font-size: 20px; } }
+      #resume-experience .experience-div h3 span {
+        font-size: 20px; }
+        @media only screen and (max-width: 960px) {
+          #resume-experience .experience-div h3 span {
+            font-size: 16px; } }
+        @media only screen and (max-width: 660px) {
+          #resume-experience .experience-div h3 span {
+            display: block;
+            width: 300px; } }
     #resume-experience .experience-div h4 {
       color: #333333;
       font-family: "Roboto", sans-serif;
       font-size: 18px;
       margin: 5px 0; }
+      @media only screen and (max-width: 960px) {
+        #resume-experience .experience-div h4 {
+          font-size: 16px; } }
+      #resume-experience .experience-div h4 span {
+        font-size: 14px; }
+        @media only screen and (max-width: 960px) {
+          #resume-experience .experience-div h4 span {
+            font-size: 12px; } }
+        @media only screen and (max-width: 660px) {
+          #resume-experience .experience-div h4 span {
+            display: block;
+            width: 300px; } }
     #resume-experience .experience-div ul {
       margin: 0;
       list-style: circle;
@@ -207,6 +237,9 @@
       font-size: 14px;
       line-height: 18px;
       color: #555555; }
+      @media only screen and (max-width: 960px) {
+        #resume-experience .experience-div ul {
+          font-size: 12px; } }
       #resume-experience .experience-div ul li {
         margin: 5px 0; }
 
@@ -214,7 +247,7 @@
   width: 100%;
   background: #cccccc;
   overflow: auto;
-  margin: 30px 0 15px; }
+  margin: 0; }
   #resume-involvement h2 {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -284,7 +317,7 @@
   width: 100%;
   background: #cccccc;
   overflow: auto;
-  margin: 30px 0 30px; }
+  margin: 0px 0 30px; }
   #resume-skills h2 {
     text-align: center;
     font-family: "Roboto", sans-serif;
