@@ -314,11 +314,31 @@ $orange-six: #dd550c
     margin: 15px auto
     overflow: auto
 
+    @media only screen and (max-width: 960px)
+      width: 600px
+
+    @media only screen and (max-width: 660px)
+      width: 300px
+
     h3
       color: $darkest-gray
       font-family: 'Roboto', sans-serif
       font-size: 18px
       margin: 0
+
+      @media only screen and (max-width: 960px)
+        font-size: 16px
+
+      span
+        font-size: 14px
+
+        @media only screen and (max-width: 960px)
+          font-size: 14px
+
+        @media only screen and (max-width: 660px)
+          display: block
+          width: 300px
+          margin-top: 5px
 
     ul
       margin: 0
@@ -329,6 +349,9 @@ $orange-six: #dd550c
       font-size: 14px
       line-height: 18px
       color: $dark-gray
+
+      @media only screen and (max-width: 960px)
+        font-size: 12px
 
       li
         margin: 5px 0
@@ -356,11 +379,31 @@ $orange-six: #dd550c
     margin: 15px auto
     overflow: auto
 
+    @media only screen and (max-width: 960px)
+      width: 600px
+
+    @media only screen and (max-width: 660px)
+      width: 300px
+
     h3
       color: $darkest-gray
       font-family: 'Roboto', sans-serif
       font-size: 18px
       margin: 0
+
+      @media only screen and (max-width: 960px)
+        font-size: 20px
+
+      span
+        font-size: 20px
+
+        @media only screen and (max-width: 960px)
+          font-size: 16px
+
+        @media only screen and (max-width: 660px)
+          display: block
+          width: 300px
+          margin: 5px 0
 
     p
       color: $dark-gray
@@ -370,11 +413,15 @@ $orange-six: #dd550c
       margin: 0
       line-height: 18px
 
+      @media only screen and (max-width: 960px)
+        font-size: 12px
+
   #projects-note
     text-align: center
     font-style: italic
     font-family: 'Open Sans', sans-serif
     font-size: 14px
+    margin: 10px
 
     a, a:hover, a:active, a:visited
       text-decoration: none
