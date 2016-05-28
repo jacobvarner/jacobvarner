@@ -447,9 +447,15 @@ $orange-six: #dd550c
   #skills-container
     display: block
     width: 900px
-    margin: 0 auto
+    margin: 0 auto -10px
     padding-bottom: 20px
     overflow: auto
+
+    @media only screen and (max-width: 960px)
+      width: 600px
+
+    @media only screen and (max-width: 660px)
+      width: 300px
 
     .skills-div
       display: block
@@ -457,11 +463,18 @@ $orange-six: #dd550c
       margin: 0
       float: left
 
+      @media only screen and (max-width: 960px)
+        width: 300px
+        margin: 0 0 10px
+
       h3
         color: $darkest-gray
         font-family: 'Roboto', sans-serif
         font-size: 24px
         margin: 0
+
+        @media only screen and (max-width: 960px)
+          font-size: 20px
 
       h4
         color: $darkest-gray
@@ -469,12 +482,18 @@ $orange-six: #dd550c
         font-size: 18px
         margin: 5px 0
 
+        @media only screen and (max-width: 960px)
+          font-size: 16px
+
       p
         color: $dark-gray
         font-family: 'Open Sans', sans-serif
         font-size: 14px
         line-height: 20px
         margin: 0
+
+        @media only screen and (max-width: 960px)
+          font-size: 12px
 
 ////////////
 // FOOTER //

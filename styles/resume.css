@@ -372,30 +372,49 @@
   #resume-skills #skills-container {
     display: block;
     width: 900px;
-    margin: 0 auto;
+    margin: 0 auto -10px;
     padding-bottom: 20px;
     overflow: auto; }
+    @media only screen and (max-width: 960px) {
+      #resume-skills #skills-container {
+        width: 600px; } }
+    @media only screen and (max-width: 660px) {
+      #resume-skills #skills-container {
+        width: 300px; } }
     #resume-skills #skills-container .skills-div {
       display: block;
       width: 450px;
       margin: 0;
       float: left; }
+      @media only screen and (max-width: 960px) {
+        #resume-skills #skills-container .skills-div {
+          width: 300px;
+          margin: 0 0 10px; } }
       #resume-skills #skills-container .skills-div h3 {
         color: #333333;
         font-family: "Roboto", sans-serif;
         font-size: 24px;
         margin: 0; }
+        @media only screen and (max-width: 960px) {
+          #resume-skills #skills-container .skills-div h3 {
+            font-size: 20px; } }
       #resume-skills #skills-container .skills-div h4 {
         color: #333333;
         font-family: "Roboto", sans-serif;
         font-size: 18px;
         margin: 5px 0; }
+        @media only screen and (max-width: 960px) {
+          #resume-skills #skills-container .skills-div h4 {
+            font-size: 16px; } }
       #resume-skills #skills-container .skills-div p {
         color: #555555;
         font-family: "Open Sans", sans-serif;
         font-size: 14px;
         line-height: 20px;
         margin: 0; }
+        @media only screen and (max-width: 960px) {
+          #resume-skills #skills-container .skills-div p {
+            font-size: 12px; } }
 
 #footer-text {
   text-align: center;
