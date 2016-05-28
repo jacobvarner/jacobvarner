@@ -19,17 +19,27 @@ $orange-six: #dd550c
   top: 15px
   right: 15px
 
+  @media only screen and (max-width: 960px)
+    position: relative
+    width: 100%
+    overflow: auto
+    top: 0
+    right: 0
+
   .button, .button:visited
     display: block
     border: $orange-six solid 3px
     font-family: 'Roboto', sans-serif
-    font-size: 20px
+    font-size: 16px
     color: $orange-six
     text-decoration: none
-    padding: 10px
+    padding: 8px
     float: right
     background: $orange-two
     z-index: 1
+
+    @media only screen and (max-width: 960px)
+      margin: 10px
 
   .button:hover, .button:active
     background: $orange-six
@@ -40,11 +50,15 @@ $orange-six: #dd550c
     float: right
     clear: right
     font-family: 'Open Sans', sans-serif
-    font-size: 18px
+    font-size: 14px
     color: $orange-five
     text-decoration: none
     margin-top: 13px
     z-index: 1
+
+    @media only screen and (max-width: 960px)
+      clear: none
+      margin: 20px 10px 10px
 
 ////////////
 // HEADER //
