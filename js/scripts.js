@@ -1,5 +1,5 @@
 function changeImage(element) {
-  if (window.width > 660) {
+  if (window.innerWidth > 660) {
     var oldSource = element.src;
     var newSource = document.getElementById("image-main").src;
 
@@ -10,7 +10,7 @@ function changeImage(element) {
 
 function lastUpdate() {
   //Update here and it will autofill everywhere.
-  document.write("May 14, 2016");
+  document.write("May 28, 2016");
 }
 
 function toggleMenu() {
