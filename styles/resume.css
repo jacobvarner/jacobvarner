@@ -86,7 +86,7 @@
   width: 100%;
   background: #cccccc;
   overflow: auto;
-  margin: 30px 0 15px; }
+  margin: 30px 0 0px; }
   #resume-education h2 {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -98,38 +98,69 @@
     width: 900px;
     margin: 0 auto;
     overflow: auto; }
+    @media only screen and (max-width: 960px) {
+      #resume-education #education-container {
+        width: 600px; } }
+    @media only screen and (max-width: 660px) {
+      #resume-education #education-container {
+        width: 300px; } }
     #resume-education #education-container .education-div {
       display: block;
       width: 450px;
       margin: 0;
       float: left; }
+      @media only screen and (max-width: 960px) {
+        #resume-education #education-container .education-div {
+          width: 300px; } }
+      @media only screen and (max-width: 660px) {
+        #resume-education #education-container .education-div {
+          margin: 0 0 10px; } }
       #resume-education #education-container .education-div h3 {
         color: #333333;
         font-family: "Roboto", sans-serif;
         font-size: 24px;
         margin: 0; }
+        @media only screen and (max-width: 960px) {
+          #resume-education #education-container .education-div h3 {
+            font-size: 20px; } }
       #resume-education #education-container .education-div h4 {
         color: #333333;
         font-family: "Roboto", sans-serif;
         font-size: 18px;
         margin: 5px 0; }
+        @media only screen and (max-width: 960px) {
+          #resume-education #education-container .education-div h4 {
+            font-size: 16px; } }
       #resume-education #education-container .education-div p {
         color: #555555;
         font-family: "Open Sans", sans-serif;
         font-size: 14px;
         line-height: 20px;
         margin: 0; }
+        @media only screen and (max-width: 960px) {
+          #resume-education #education-container .education-div p {
+            font-size: 12px;
+            line-height: 18px; } }
   #resume-education #education-key-courses {
     clear: both;
     display: block;
     width: 900px;
-    margin: 15px auto 20px; }
+    margin: 10px auto 20px; }
+    @media only screen and (max-width: 960px) {
+      #resume-education #education-key-courses {
+        width: 600px; } }
+    @media only screen and (max-width: 660px) {
+      #resume-education #education-key-courses {
+        width: 300px; } }
     #resume-education #education-key-courses h3 {
       color: #333333;
       font-family: "Roboto", sans-serif;
       font-size: 18px;
       display: inline;
       margin: 0; }
+      @media only screen and (max-width: 960px) {
+        #resume-education #education-key-courses h3 {
+          font-size: 16px; } }
     #resume-education #education-key-courses p {
       color: #555555;
       font-family: "Open Sans", sans-serif;
@@ -137,6 +168,9 @@
       display: inline;
       margin: 0;
       line-height: 18px; }
+      @media only screen and (max-width: 960px) {
+        #resume-education #education-key-courses p {
+          font-size: 12px; } }
 
 #resume-experience {
   width: 100%;

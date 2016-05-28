@@ -113,7 +113,7 @@ $orange-six: #dd550c
   width: 100%
   background: $light-gray
   overflow: auto
-  margin: 30px 0 15px
+  margin: 30px 0 0px
 
   h2
     text-align: center
@@ -128,11 +128,23 @@ $orange-six: #dd550c
     margin: 0 auto
     overflow: auto
 
+    @media only screen and (max-width: 960px)
+      width: 600px
+
+    @media only screen and (max-width: 660px)
+      width: 300px
+
     .education-div
       display: block
       width: 450px
       margin: 0
       float: left
+
+      @media only screen and (max-width: 960px)
+        width: 300px
+
+      @media only screen and (max-width: 660px)
+        margin: 0 0 10px
 
       h3
         color: $darkest-gray
@@ -140,11 +152,17 @@ $orange-six: #dd550c
         font-size: 24px
         margin: 0
 
+        @media only screen and (max-width: 960px)
+          font-size: 20px
+
       h4
         color: $darkest-gray
         font-family: 'Roboto', sans-serif
         font-size: 18px
         margin: 5px 0
+
+        @media only screen and (max-width: 960px)
+          font-size: 16px
 
       p
         color: $dark-gray
@@ -153,11 +171,21 @@ $orange-six: #dd550c
         line-height: 20px
         margin: 0
 
+        @media only screen and (max-width: 960px)
+          font-size: 12px
+          line-height: 18px
+
   #education-key-courses
     clear: both
     display: block
     width: 900px
-    margin: 15px auto 20px
+    margin: 10px auto 20px
+
+    @media only screen and (max-width: 960px)
+      width: 600px
+
+    @media only screen and (max-width: 660px)
+      width: 300px
 
     h3
       color: $darkest-gray
@@ -166,6 +194,9 @@ $orange-six: #dd550c
       display: inline
       margin: 0
 
+      @media only screen and (max-width: 960px)
+        font-size: 16px
+
     p
       color: $dark-gray
       font-family: 'Open Sans', sans-serif
@@ -173,6 +204,9 @@ $orange-six: #dd550c
       display: inline
       margin: 0
       line-height: 18px
+
+      @media only screen and (max-width: 960px)
+        font-size: 12px
 
 ////////////////
 // EXPERIENCE //
