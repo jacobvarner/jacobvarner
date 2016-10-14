@@ -10,7 +10,7 @@ function changeImage(element) {
 
 function lastUpdate() {
   //Update here and it will autofill everywhere.
-  document.write("May 28, 2016");
+  document.write("October 13, 2016");
 }
 
 function toggleMenu() {

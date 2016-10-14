@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Projects | Jacob Varner</title>
+    <title>Hoops Blog | Jacob Varner</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width" />
@@ -56,74 +56,58 @@
         </ul>
       </nav>
     </header>
-    <section class="projects">
-      <h1>My Projects</h1>
-      <div class="project-boxes">
-        <a href="hoops-jacobvarner.html">
-          <div class="project-box color-5">
-            <h3 class="language">Jekyll</h3>
-            <h2 class="project-title">Jacob Varner's Hoops Blog</h2>
-          </div>
-        </a>
-        <a href="emmy-njaaga.html">
-          <div class="project-box color-1">
-            <h3 class="language">Sass</h3>
-            <h2 class="project-title">Emmy Njaaga Personal Site</h2>
-          </div>
-        </a>
-        <a href="auburn-basketball-stats.html">
-          <div class="project-box color-3">
-            <h3 class="language">Meteor.js</h3>
-            <h2 class="project-title">Auburn Basketball Stats</h2>
-          </div>
-        </a>
-        <a href="random-restaurant-picker.html">
-          <div class="project-box color-2">
-            <h3 class="language">Meteor.js</h3>
-            <h2 class="project-title">Random Restaurant Picker</h2>
-          </div>
-        </a>
-        <a href="the-jungle-times-rails.html">
-          <div class="project-box color-4">
-            <h3 class="language">Ruby on Rails</h3>
-            <h2 class="project-title">The Jungle Times</h2>
-          </div>
-        </a>
-        <a href="the-jungle-times-php.html">
-          <div class="project-box color-5">
-            <h3 class="language">PHP</h3>
-            <h2 class="project-title">The Jungle Times (Original)</h2>
-          </div>
-        </a>
-        <a href="war-eagle-best.html">
-          <div class="project-box color-1">
-            <h3 class="language">Bootstrap</h3>
-            <h2 class="project-title">War Eagle BEST</h2>
-          </div>
-        </a>
-        <a href="souths-best.html">
-          <div class="project-box color-3">
-            <h3 class="language">Bootstrap</h3>
-            <h2 class="project-title">South's BEST</h2>
-          </div>
-        </a>
-        <a href="auburn-disc-golf.html">
-          <div class="project-box color-2">
-            <h3 class="language">Android</h3>
-            <h2 class="project-title">Auburn Disc Golf</h2>
-          </div>
-        </a>
+    <section class="project">
+      <h1>Hoops Blog</h1>
+      <div class="project-tags">
+        <div class="project-tag color-3">
+          <h3>Jekyll</h3>
+        </div>
+        <div class="project-tag color-1">
+          <h3>Sass</h3>
+        </div>
+        <div class="project-tag color-4">
+          <h3>SEO</h3>
+        </div>
+        <div class="project-tag color-2">
+          <h3>Markdown</h3>
+        </div>
+      </div>
+      <p class="project-description">Jacob Varner's Hoops Blog is exactly that, a simple blog that I made to share my thoughts on college basketball. I have played with other technologies to build blogs in the past, but I decided to try a new, and much simpler one for this blog. Jekyll allowed me to build a basic template that handles almost everything I needed with a simple blog and then I was even able to host it for free on GitHub pages. Jekyll also allows for Markdown styling which makes it even easier to type up posts as I'm usually short on time during basketball season where school is still going on full steam ahead. Along with building the blog from the ground up, it was another outlet for me to work on getting Search Engine Optimization to work well and play with different styles. I'm also really proud with how the sidebar turned out on this site for both mobile and desktop. I spent about 2-3 months working on the site and if I plan on doing any more work to it, I'll probably add the ability to add images for posts to make them slightly more shareable online.</p>
+      <div class="project-buttons">
+        <a class="button" href="https://www.github.com/jacobvarner/hoops.jacobvarner">View Code on GitHub</a>
+        <a class="button" href="http://hoops.jacobvarner.com">View Live Version</a>
+      </div>
+      <div class="project-images">
+        <img id="image-main" src="../images/projects/hoops-jacob-varner-1.jpg" />
+        <img id="sub-image-1" onClick="changeImage(this);" src="../images/projects/hoops-jacob-varner-2.jpg" />
       </div>
     </section>
-    <section class="links">
-      <h2>Keep up with my ongoing projects</h2>
-      <a class="contact-link" href="https://github.com/jacobvarner">
-        <img src="../images/github-light.png" height="50px"/>/jacobvarner
+    <div class="other-projects">
+      <a href="souths-best.html">
+        <div class="project-box color-2">
+          <h3 class="language">HTML</h3>
+          <h2 class="project-title">South's BEST</h2>
+        </div>
       </a>
-      <a class="contact-link" href="https://twitter.com/jacobvarner14">
-        <img src="../images/twitter.png" height="50px"/>@jacobvarner14
+      <a href="random-restaurant-picker.html">
+        <div class="project-box color-4">
+          <h3 class="language">Meteor.js</h3>
+          <h2 class="project-title">Random Restaurant Picker</h2>
+        </div>
       </a>
-    </section>
+      <a href="auburn-basketball-stats.html">
+        <div class="project-box color-1">
+          <h3 class="language">Meteor.js</h3>
+          <h2 class="project-title">Auburn Basketball Stats</h2>
+        </div>
+      </a>
+      <a href="the-jungle-times-php.html">
+        <div class="project-box color-3">
+          <h3 class="language">PHP</h3>
+          <h2 class="project-title">The Jungle Times (Original)</h2>
+        </div>
+      </a>
+    </div>
     <footer>
       <p>Jacob Varner &copy; 2016 | Last Updated: <script>lastUpdate();</script></p>
     </footer>
