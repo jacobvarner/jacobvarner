@@ -1,127 +1,211 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jacob Varner</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="styles/styles.min.css" />
-    <link href='https://fonts.googleapis.com/css?family=Roboto:700|Open+Sans:400,400italic' rel='stylesheet' type='text/css' />
-    <script src="js/scripts.js"></script>
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png?v=Nmmzz23nRG">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png?v=Nmmzz23nRG">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png?v=Nmmzz23nRG">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png?v=Nmmzz23nRG">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png?v=Nmmzz23nRG">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png?v=Nmmzz23nRG">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png?v=Nmmzz23nRG">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png?v=Nmmzz23nRG">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png?v=Nmmzz23nRG">
-    <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png?v=Nmmzz23nRG" sizes="32x32">
-    <link rel="icon" type="image/png" href="images/favicons/favicon-194x194.png?v=Nmmzz23nRG" sizes="194x194">
-    <link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png?v=Nmmzz23nRG" sizes="96x96">
-    <link rel="icon" type="image/png" href="images/favicons/android-chrome-192x192.png?v=Nmmzz23nRG" sizes="192x192">
-    <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png?v=Nmmzz23nRG" sizes="16x16">
-    <link rel="manifest" href="images/favicons/manifest.json?v=Nmmzz23nRG">
-    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg?v=Nmmzz23nRG" color="#ff6700">
-    <link rel="shortcut icon" href="images/favicons/favicon.ico?v=Nmmzz23nRG">
-    <meta name="msapplication-TileColor" content="#ff6700">
-    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png?v=Nmmzz23nRG">
-    <meta name="msapplication-config" content="images/favicons/browserconfig.xml?v=Nmmzz23nRG">
-    <meta name="theme-color" content="#ff6700">
-    <!-- end Favicon -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Jacob Varner</title>
+    <meta name="author" content="Jacob Varner">
+    <meta name="description" content="Jacob Varner is a recent Software Engineering graduate who is currently pursuing his MBA and MISE at Auburn University. Jacob enjoys Web development, racing bikes, and passionately following college basketball.">
+    <meta name="keywords" content="Jacob Varner, Web Development, Web Design, Software, Engineering, Business, Cycling, Basketball, Portfolio, Resume">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/21a1bc1b81.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Asap+Condensed:700|Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/styles/main.min.css">
+    <script src="assets/js/main.js"></script>
   </head>
   <body>
-    <header>
-      <div class="nav-bar">
-        <a id="logo" href="index.html">JV</a>
-        <nav id="desktop-nav">
-          <ul>
-            <li><a href="projects/index.html">Projects</a></li>
-            <li><a href="resume.html">Resumé</a></li>
-            <li><a href="about-me.html">About Me</a></li>
-            <li><a href="https://github.com/jacobvarner"><img src="images/github-dark.png" /></a></li>
-          </ul>
-        </nav>
-        <a id="menu-button" class="closed" onClick="toggleMenu()"><img id="menu-icon" src="images/menu-icon.png" /></a>
+    <header id="header">
+      <div id="title-box">
+        <h1 id="title">Jacob Varner</h1>
       </div>
-      <nav id="mobile-nav">
-        <ul>
-          <li><a href="projects/index.html">Projects</a></li>
-          <li><a href="resume.html">Resumé</a></li>
-          <li><a href="about-me.html">About Me</a></li>
-          <li><a href="https://github.com/jacobvarner"><img src="images/github-dark.png" /></a></li>
+      <nav id="navigation">
+        <ul id="navigation-links">
+          <li class="navigation-link"><a href="#education">Education</a></li>
+          <li class="navigation-link"><a href="#projects">Projects</a></li>
+          <li class="navigation-link"><a href="#work">Work</a></li>
+          <li class="navigation-link"><a href="#contact">Contact</a></li>
+          <li class="navigation-link icon"><a href="assets/files/varner_resume.pdf"><i class="fa fa-file-o" aria-hidden="true"></i></a></li>
+          <li class="navigation-link icon"><a href="https://www.linkedin.com/in/jacobvarner"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li class="navigation-link icon"><a href="https://www.github.com/jacobvarner"><i class="fa fa-github" aria-hidden="true"></i></a></li>
         </ul>
       </nav>
-      <div class="banner">
-        <div class="banner-1">
-          <h1>Jacob Varner</h1>
-        </div>
-        <div class="banner-2">
-          <h2>Software Engineer</h2>
-        </div>
-        <div class="banner-3">
-          <h2>MBA & MISE Student</h2>
-        </div>
-      </div>
     </header>
-    <section class="boxes">
-      <div class="box-container">
-        <div class="box">
-          <div class="box-heading">
-            <h2>Projects</h2>
-          </div>
-          <div class="box-content">
-            <p>
-              I’m certainly a project based learner and made and effort to prioritize personal side projects during undergrad. I hope to expand on this as I pursue two different masters degrees as well. Web development is always changing, and with each new project, I’m just trying to sharpen my skills.
-            </p>
-          </div>
-          <a class="button-1" href="projects/index.html">View My Projects</a>
-        </div>
-        <div class="box">
-          <div class="box-heading">
-            <h2>Resumé</h2>
-          </div>
-          <div class="box-content">
-            <p>
-              While my projects are the best indication of the skills I have, my resumé does a good job of reflecting how I have gained those skills and how I have put them to use. I take pride in working my way through school and continuing the work I enjoy into graduate school as well.
-            </p>
-          </div>
-          <a class="button-21" href="resume.html">View as HTML</a>
-          <a class="button-22" href="resume.pdf">View as PDF</a>
-        </div>
-        <div class="box">
-          <div class="box-heading">
-            <h2>About Me</h2>
-          </div>
-          <div class="box-content">
-            <p>
-              Balancing a busy undergraduate degree and working my way through college didn't leave a whole lot of free time. However, I still managed to prioritize things I enjoyed on the side like cycling, Auburn basketball, and a wonderful relationship with my fiancé.
-            </p>
-          </div>
-          <a class="button-1" href="about-me.html">Get to Know Me</a>
-        </div>
+    <div id="main-icons">
+      <img class="main-icon" src="assets/images/web-development.png" alt="Web Development" />
+      <img class="main-icon" src="assets/images/bike.png" alt="Cycling" />
+      <img class="main-icon" src="assets/images/basketball.png" alt="Basketball" />
+    </div>
+    <div id="main-subheading">
+      <p class="subheading-line">Hi, my name is <strong>Jacob Varner</strong> and I am a recent <strong>Software Engineering</strong> graduate.</p>
+      <p class="subheading-line">I am  currently pursuing my <strong>MBA</strong> and <strong>MISE</strong> from Auburn University.</p>
+      <p class="subheading-line">I enjoy Web development, racing <a href="http://cycling.jacobvarner.com" target="_blank">bikes</a>, and passionately following <a href="http://hoops.jacobvarner.com" target="_blank">college basketball</a>.</p>
+    </div>
+    <a class="button" href="assets/files/varner_resume.pdf" target="_blank"><i class="fa fa-file-o" aria-hidden="true"></i>Download PDF Resume</a>
+    <section id="education">
+      <h2 class="section-heading">Education</h2>
+      <div class="education-group">
+        <h3 class="education-top-line">MBA &amp; ME Industrial Engineering</h3>
+        <p class="education-line">Auburn University</p>
+        <p class="education-line">May 2019</p>
+      </div>
+      <div class="education-group">
+        <h3 class="education-top-line">BE Software Engineering</h3>
+        <p class="education-line">Auburn University</p>
+        <p class="education-line">May 2017</p>
       </div>
     </section>
-    <section class="links">
-      <h2>Where can you find me?</h2>
-      <a class="contact-link" href="https://github.com/jacobvarner">
-        <img src="images/github-light.png" height="50px"/>/jacobvarner
-      </a>
-      <a class="contact-link" href="https://twitter.com/jacobvarner14">
-        <img src="images/twitter.png" height="50px"/>@jacobvarner14
-      </a>
-      <a class="contact-link" href="https://linkedin.com/in/jacobvarner">
-        <img src="images/linkedin.png" height="50px"/>/in/jacobvarner
-      </a>
-      <a class="contact-link" href="mailto:jacob.varner14@gmail.com">
-        <img src="images/email.png" height="50px" />jacob.varner14@gmail.com
-      </a>
+    <section id="projects">
+      <h2 class="section-heading">Projects</h2>
+      <div id="projects-container">
+        <div class="dark-background"></div>
+        <div class="project orange-5" id="project1">
+          <div class="project-link">
+            <h3 class="project-heading">Auburn Basketball Stats</h3>
+            <p class="project-list">Meteor.js, Sass</p>
+          </div>
+          <div class="project-pop-up">
+            <h3 class="project-pop-up-heading">Auburn Basketball Stats</h3>
+            <p class="project-pop-up-description">Auburn Basketball Stats is a full-stack web application that I built using <a href="https://www.meteor.com" target="_blank">Meteor.js</a> in order to keep track of Auburn basketball stats in a visually pleasing and easily accessible way. Meteor allows for live-reloading pages which made it possible to dynamically change stats for different time windows such as the last 3, 5, or 10 games. Currently, stats must be entered manually through a back-end submission form that I access, but eventually, I’d like to have the site read in the official stats that are posted after each game.</p>
+            <a class="button" href="http://www.auburnbasketballstats.com" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>View Site</a>
+            <a class="button" href="https://github.com/jacobvarner/auburnbasketballstats" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>View Code</a>
+          </div>
+        </div>
+        <div class="project orange-3" id="project2">
+          <div class="project-link">
+            <h3 class="project-heading">Auburn Flyers Cycling Club</h3>
+            <p class="project-list">HTML, Sass, jQuery</p>
+          </div>
+          <div class="project-pop-up">
+            <h3 class="project-pop-up-heading">Auburn Flyers Cycling Club</h3>
+            <p class="project-pop-up-description">I created an updated website for the Auburn Flyers Cycling team so that we could have a more visually pleasing website for sponsors and other supporters of the team to find. The site also has a list of current member and race results for the past seasons. For this website I wanted to focus on a modern design and try to incorporate some more advanced front-end elements using <a href="https://jquery.com/" target="_blank">jQuery</a> including collapsable sections for the results page.</p>
+            <a class="button" href="http://www.auburnflyers.com" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>View Site</a>
+            <a class="button" href="https://github.com/jacobvarner/auburnflyers" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>View Code</a>
+          </div>
+        </div>
+        <div class="project orange-4" id="project3">
+          <div class="project-link">
+            <h3 class="project-heading">Jacob Varner's Hoops Blog</h3>
+            <p class="project-list">Jekyll, Sass</p>
+          </div>
+          <div class="project-pop-up">
+            <h3 class="project-pop-up-heading">Jacob Varner's Hoops Blog</h3>
+            <p class="project-pop-up-description">My first time using <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and I used it to build my blog that I use for sharing my thoughts and analysis on college basketball, specifically the SEC. I like to build side projects that I can continue to use and this is one that I have used the most since creating it. The <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> framework allows for sorting posts by category and assigning tags to the posts. For this design, I had to figure out the best way to incorporate ads into the site and try to maximize the number of posts a user would read when they visited the site each time.</p>
+            <a class="button" href="http://hoops.jacobvarner.com" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>View Site</a>
+            <a class="button" href="https://github.com/jacobvarner/hoops.jacobvarner" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>View Code</a>
+          </div>
+        </div>
+        <div class="project orange-2" id="project4">
+          <div class="project-link">
+            <h3 class="project-heading">JV's Cycling Blog</h3>
+            <p class="project-list">Jekyll, Sass</p>
+          </div>
+          <div class="project-pop-up">
+            <h3 class="project-pop-up-heading">JV's Cycling Blog</h3>
+            <p class="project-pop-up-description">This blog was created using <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, one of my recent favorite frameworks, so that it could have dynamic aspects that a blog needs but can still be hosted for free through GitHub Pages. The blog is for me to post race reports and updates throughout my road racing season with the <a href="http://www.auburnflyers.com/" target="_blank">Auburn Flyers Cycling Team</a>. The site also features collections of my results and routes around the Auburn area. I tried to use this site as an excuse to play around with a design that incorporated different colors than what I’m used to using.</p>
+            <a class="button" href="http://cycling.jacobvarner.com" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>View Site</a>
+            <a class="button" href="https://github.com/jacobvarner/cycling-jacobvarner" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>View Code</a>
+          </div>
+        </div>
+        <div class="project orange-1" id="project5">
+          <div class="project-link">
+            <h3 class="project-heading">Random Restaurant Picker</h3>
+            <p class="project-list">Meteor.js, Sass</p>
+          </div>
+          <div class="project-pop-up">
+            <h3 class="project-pop-up-heading">Random Restaurant Picker</h3>
+            <p class="project-pop-up-description">In the process of learning <a href="https://www.meteor.com" target="_blank">Meteor.js</a> and also needing help with deciding where I eat lunch everyday, I decided to make the little Web app to achieve both goals. The site allowed me to add restaurants that I enjoyed to a list and then each day I could randomly select one of the restaurants from the list so I wouldn’t have to think too long about my lunch plans each day.</p>
+            <a class="button" href="https://github.com/jacobvarner/random-restaurant" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>View Code</a>
+          </div>
+        </div>
+        <div class="project orange-5" id="project6">
+          <div class="project-link">
+            <h3 class="project-heading">S.C.O.R.E.</h3>
+            <p class="project-list">HTML, Sass, jQuery</p>
+          </div>
+          <div class="project-pop-up">
+            <h3 class="project-pop-up-heading">S.C.O.R.E.</h3>
+            <p class="project-pop-up-description">The Southeastern Center of Robotics Education is a new branch of the COSAM Outreach office at Auburn in partnership with the school of engineering and the school of aviation. As a new program that is aimed at educating students and teachers with modern robotics education, I felt they needed a modern website to really represent them. I used a similar design as the Auburn Flyers website on this one and still aimed to add some <a href="https://jquery.com/" target="_blank">jQuery</a> to a few aspects of the site so that I could get more comfortable using the framework.</p>
+            <a class="button" href="http://www.scoreau.org" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>View Site</a>
+            <a class="button" href="https://github.com/jacobvarner/SCORE" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>View Code</a>
+          </div>
+        </div>
+        <div class="project orange-3" id="project7">
+          <div class="project-link">
+            <h3 class="project-heading">South's BEST</h3>
+            <p class="project-list">Bootstrap</p>
+          </div>
+          <div class="project-pop-up">
+            <h3 class="project-pop-up-heading">South's BEST</h3>
+            <p class="project-pop-up-description">South’s BEST is the Regional Robotics Championship hosted by Auburn University where middle school and high school teams from all over the Southeast compete to see who has the best robot product that achieves any give year’s game theme. Like the War Eagle BEST site, South’s BEST was one of my earlier projects and needed to be easy to maintain since it will be updated each year and should be around even after I leave COSAM Outreach. The site is also built in <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> for the same reason I chose to use <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> for War Eagle BEST. Whenever I leave, my replacement will only have to have minimal Web development knowledge in order to keep the two sites running.</p>
+            <a class="button" href="http://www.southsbest.org" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>View Site</a>
+            <a class="button" href="https://github.com/jacobvarner/southsbest" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>View Code</a>
+          </div>
+        </div>
+        <div class="project orange-4" id="project8">
+          <div class="project-link">
+            <h3 class="project-heading">The Jungle Times</h3>
+            <p class="project-list">Ruby on Rails, PHP</p>
+          </div>
+          <div class="project-pop-up">
+            <h3 class="project-pop-up-heading">The Jungle Times</h3>
+            <p class="project-pop-up-description">The Jungle Times was the blog that I used to use to share my Auburn basketball thoughts and analysis. The project was originally written to learn <a href="http://php.net/" target="_blank">PHP</a> but shortly upon completion I learned how cool <a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a> was and decided to re-write the site in order to learn that instead. I really enjoyed working with <a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a> and hope to be able to use it in another project soon. The Jungle Times had a fully custom comments and user system as well as a “forum” like section where users could post their thoughts on whatever subject they wished.</p>
+            <a class="button" href="https://github.com/jacobvarner/aujungletimes" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>View RoR Code</a>
+            <a class="button" href="https://github.com/jacobvarner/aujungletimes-php" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>View PHP Code</a>
+          </div>
+        </div>
+        <div class="project orange-2" id="project9">
+          <div class="project-link">
+            <h3 class="project-heading">War Eagle BEST</h3>
+            <p class="project-list">Bootstrap</p>
+          </div>
+          <div class="project-pop-up">
+            <h3 class="project-pop-up-heading">War Eagle BEST</h3>
+            <p class="project-pop-up-description">War Eagle BEST is the local BEST Robotics competition hosted by Auburn University where middle school and high school teams from all over East Alabama and West Georgia compete for a chance to advance the South’s BEST. War Eagle BEST was one of my first projects and I wanted to make sure it would be easy to maintain over the years either by myself or other people that take over my job at COSAM Outreach after graduation. <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> seemed like the perfect framework to use in order to make the site usable, visually pleasing, and simple to modify going forward.</p>
+            <a class="button" href="http://www.wareaglebest.org" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>View Site</a>
+            <a class="button" href="https://github.com/jacobvarner/wareaglebest" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>View Code</a>
+          </div>
+        </div>
+      </div>
+      <p id="projects-footer">View all of my projects on my <a href="https://www.github.com/jacobvarner" target="_blank">GitHub profile</a>.</p>
     </section>
-    <footer>
-      <p>Jacob Varner &copy; 2016 | Last Updated: <script>lastUpdate();</script></p>
-    </footer>
+    <section id="work">
+      <h2 class="section-heading">Work</h2>
+      <h4 class="work-subheading">Graduate Research Assistant at <a href="http://www.auburn.edu/cosam/outreach" target="_blank">COSAM Outreach</a> in Auburn, AL since May 2017</h4>
+      <ul class="work-details">
+        <li>Managed registration, invoices, and payments for <a href="http://www.pltw.org" target="_blank">Project Lead The Way</a> Core Trainings that involved over 120 teachers and $200,000 in course fees.</li>
+        <li>Collected data and generated a report for the 130 students that have taken part in the <a href="http://www.auburn.edu/cosam/departments/outreach/programs/SSI/index.htm" target="_blank">Summer Science Institute</a> which provided valuable information on the effectiveness of the program so far.</li>
+      </ul>
+      <h4 class="work-subheading">Webmaster and Technology Manager at <a href="http://www.auburn.edu/cosam/outreach" target="_blank">COSAM Outreach</a> in Auburn, AL from August 2013 to May 2017</h4>
+      <ul class="work-details">
+        <li>Helped prepare and run 96 K-12 STEM programs over four years that had over 700 combined contact hours and impacted over 4,000 total students, teachers, and parents all across Alabama and the Southeast.</li>
+        <li>Reviewed applications and served as counselor and eventually head counselor for the <a href="http://www.auburn.edu/cosam/departments/outreach/programs/SSI/index.htm" target="_blank">Summer Science Institute</a> which brought 75+ highly qualified high school students to Auburn's campus.</li>
+        <li>Head scorekeeper and webmaster for both <a href="http://www.wareaglebest.org" target="_blank">War Eagle BEST</a> and the <a href="http://www.southsbest.org" target="_blank">South's BEST Regional Robotics Championships</a> that involved over 240 schools and thousands of students since 2013.</li>
+        <li>Managed the main website that serves info for each of our programs and designed and developed stand alone websites for <a href="http://www.wareaglebest.org" target="_blank">War Eagle BEST</a>, <a href="http://www.southsbest.org" target="_blank">South's BEST</a>, and the <a href="http://www.scoreau.org" target="_blank">Southeastern Center of Robotics Education</a>.</li>
+      </ul>
+      <h4 class="work-subheading">Summer Software Intern at <a href="http://www.fitz-thors.com/" target="_blank">Fitz-Thors Engineering, Inc.</a> in Bessemer, AL from May 2013 to August 2013</h4>
+      <ul class="work-details">
+        <li>Developed a system for tracking surgical equipment in and out of operating rooms using different RFID tags and an RFID reader that was programmed using C# in Visual Studio.</li>
+        <li>Prototyped a remote pet feeder with video chat capabilities using a Raspberry Pi and basic Python code along with APIs and the basic framework for the Raspberry Pi.</li>
+        <li>Observed the development of a fully automated robotic arm that sealed the dashboard system of a car using a heated end effector.</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2 class="section-heading">Contact</h2>
+      <a class="button" href="mailto:jacob.varner14@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>E-mail</a>
+      <a class="button" href="https://www.linkedin.com/in/jacobvarner" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+      <a class="button" href="https://www.github.com/jacobvarner" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a>
+    </section>
   </body>
+  <footer>
+    <div id="footer-links">
+      <a class="button" href="assets/files/varner_resume.pdf" target="_blank"><i class="footer-image fa fa-file-o" aria-hidden="true"></i></a>
+      <a class="button" href="mailto:jacob.varner14@gmail.com" target="_blank"><i class="footer-image fa fa-envelope-o" aria-hidden="true"></i></a>
+      <a class="button" href="https://www.linkedin.com/in/jacobvarner" target="_blank"><i class="footer-image fa fa-linkedin" aria-hidden="true"></i></a>
+      <a class="button" href="https://www.github.com/jacobvarner" target="_blank"><i class="footer-image fa fa-github" aria-hidden="true"></i></a>
+    </div>
+    <p id="footer-text">Jacob Varner &copy; 2017 | Updated: September 22, 2017</p>
+  </footer>
 </html>
