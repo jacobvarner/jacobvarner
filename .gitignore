@@ -1,1 +1,7 @@
- .DS_Store
+.DS_Store
+Icon
+
+
+# 2 /r needed after Icon
+*.gdoc
+.vscode
