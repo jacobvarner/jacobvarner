@@ -1,13 +1,12 @@
-$(function() {
-  $(".project").on("click", function() {
+$("document").ready(function() {
+  $(".project").click( function(event) {
+    var id = $(this).attr("id");
     $(".dark-background").css("display", "block");
-    $(this).find(".project-pop-up").addClass("project-pop-up-open");
-    return false;
+    $("#" + id + " > .project-pop-up").addClass("project-pop-up-open");
   });
 
-  $(".dark-background").on("click", function() {
+  $(".dark-background").click( function() {
     $(".dark-background").css("display", "none");
-    $(".project-pop-up").removeClass("project-pop-up-open");
-    return false;
+    $(".project-pop-up-open").removeClass("project-pop-up-open");
   });
 });
