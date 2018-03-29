@@ -1,5 +1,12 @@
 body {
   text-align: center;
+  padding-top: 60px;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    padding-top: 120px;
+  }
 }
 
 #header {
@@ -111,60 +118,17 @@ body {
   }
 }
 
-#header-announcement {
-  position: relative;
-  display: block;
-  margin-top: 60px;
-  overflow: auto;
-  z-index: 1;
-  background: #cccccc;
-  padding: 40px 20px;
-  border-bottom: #555555 solid 1px;
-}
-
-@media only screen and (max-width: 800px) {
-  #header-announcement {
-    margin-top: 120px;
-    padding: 20px 20px 40px;
-  }
-}
-
-#header-announcement #announcement {
-  font-family: "Slabo 27px", serif;
-  font-size: 18px;
-  line-height: 24px;
-  text-align: left;
-  color: #555555;
-  padding: 0;
-  margin: 0;
-}
-
-#header-announcement #announcement a, #header-announcement #announcement a:active, #header-announcement #announcement a:hover, #header-announcement #announcement a:visited {
-  color: #eb7232;
-}
-
-#header-announcement #announcement-close {
-  color: #555555;
-  font-size: 20px;
-  line-height: 20px;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-}
-
 #main-icons {
   display: block;
   height: 160px;
   text-align: center;
-  margin: 180px 20px 100px;
+  margin: 100px 20px;
 }
 
 @media only screen and (max-width: 800px) {
   #main-icons {
     height: 100px;
-    margin: 60px 0px 40px;
+    margin: 40px 0px;
   }
 }
 
@@ -340,6 +304,7 @@ a, a:active, a:hover, a:visited {
   width: 1280px;
   margin: 0px auto;
   font-size: 0px;
+  text-align: left;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -356,16 +321,22 @@ a, a:active, a:hover, a:visited {
 
 @media only screen and (max-width: 640px) {
   #projects-container {
-    width: 320px;
+    width: 100%;
   }
 }
 
 .project {
-  display: block;
+  display: inline-block;
   width: 300px;
   height: 220px;
   margin: 10px;
-  float: left;
+  vertical-align: top;
+}
+
+@media only screen and (max-width: 640px) {
+  .project {
+    width: calc(100% - 20px);
+  }
 }
 
 .project:hover {
