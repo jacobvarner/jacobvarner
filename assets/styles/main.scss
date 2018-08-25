@@ -2,11 +2,133 @@ $background: #242529;
 $orange: #ff8135;
 $white: white;
 $font: "Noto Sans", sans-serif;
+$shadow: 0 3px 12px rgba(0, 0, 0, 0.5);
 
-html {
+:root {
   font-size: 10px;
+
+  @media only screen and (max-width: 1100px) {
+    font-size: 6.7px;
+  }
+
+  @media only screen and (max-width: 580px) {
+    font-size: 5px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    font-size: 4px;
+  }
 }
 
 body {
   background: $background;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+section#intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 105rem;
+  height: 30rem;
+  padding: 0;
+  position: relative;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+
+  @media only screen and (max-width: 770px) {
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+    height: 65rem;
+    text-align: center;
+  }
+
+  div#logo {
+    display: block;
+    position: relative;
+    height: 30rem;
+    width: 30rem;
+    box-shadow: $shadow;
+    background: $orange;
+    margin: 0;
+    padding: 0;
+
+    h2#logo-text {
+      font-size: 20rem;
+      position: absolute;
+      color: $white;
+      font-family: $font;
+      font-weight: 700;
+      bottom: 4rem;
+      right: 2rem;
+      margin: 0;
+      padding: 0;
+      line-height: 20rem;
+    }
+  }
+
+  div#intro-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 70rem;
+
+    h1#intro-text {
+      font-family: $font;
+      font-weight: 700;
+      font-size: 4.8rem;
+      line-height: 4.8rem;
+      margin: 0 0 0 0;
+      padding: 0;
+      color: $white;
+    }
+
+    p.intro-subtext {
+      font-family: $font;
+      font-weight: 700;
+      font-size: 3rem;
+      line-height: 4.5rem;
+      margin: 4rem 0 0 0;
+      padding: 0;
+      color: $white;
+    }
+
+    span.highlight {
+      color: $orange;
+      text-shadow: $shadow;
+    }
+  }
+}
+
+i#down-arrow {
+  border: solid $orange;
+  border-width: 0 0.3rem 0.3rem 0;
+  display: block;
+  padding: 1rem;
+  transform: rotate(45deg) translateX(50%);
+  -webkit-transform: rotate(45deg) translateX(50%);
+  position: absolute;
+  bottom: 3rem;
+  left: 50vw;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+  @keyframes bounce {
+    0% {
+      bottom: 3rem;
+    }
+    50% {
+      bottom: 2rem;
+    }
+    100% {
+      bottom: 3em;
+    }
+  }
 }
