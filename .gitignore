@@ -7,3 +7,4 @@ Icon
 .vscode
 design/
 *.psd
+node_modules/
