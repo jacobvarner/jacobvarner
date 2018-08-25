@@ -5,3 +5,5 @@ Icon
 # 2 /r needed after Icon
 *.gdoc
 .vscode
+design/
+*.psd
