@@ -250,6 +250,135 @@ section#projects {
   }
 }
 
+section#certifications {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  bottom: 0;
+
+  div#certifications-wrapper {
+    position: relative;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+    div#certifications-container {
+      margin: 40px 0;
+      display: block;
+      padding: 0 0 0 60px;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      position: relative;
+
+      @media only screen and (max-width: 768px) {
+        margin: 30px 0;
+        padding: 0 0 0 30px;
+      }
+
+      div.certification {
+        display: inline-block;
+        position: relative;
+        padding: 0;
+        margin: 0 60px 0 0;
+        vertical-align: middle;
+
+        @media only screen and (max-width: 768px) {
+          margin: 0 30px 0 0;
+        }
+
+        img.certification-image {
+          width: 500px;
+          padding: 0;
+          margin: 0;
+          display: block;
+          border: 0;
+          box-shadow: $shadow;
+
+          @media only screen and (max-width: 768px) {
+            width: 300px;
+          }
+        }
+
+        div.certification-text {
+          display: block;
+          margin: 2rem 0 0 0;
+          padding: 0;
+          text-align: center;
+          width: 500px;
+          overflow-x: default;
+          overflow-y: default;
+          white-space: normal;
+          position: relative;
+
+          @media only screen and (max-width: 768px) {
+            width: 300px;
+          }
+
+          h3.certification-title {
+            font-family: $font;
+            font-weight: bold;
+            color: $white;
+            font-size: 3.2rem;
+            line-height: 4rem;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+          }
+
+          p.certification-date {
+            display: block;
+            font-family: $font;
+            font-weight: 400;
+            color: $orange;
+            font-size: 2rem;
+            line-height: 2rem;
+            margin: 2rem 0 0 0;
+            padding: 0;
+          }
+
+          a.certification-link,
+          a.certification-link:hover,
+          a.certification-link:visited,
+          a.certification-link:active {
+            display: block;
+            font-family: $font;
+            font-weight: 400;
+            color: $white;
+            font-size: 2rem;
+            line-height: 2rem;
+            margin: 2rem 0 0 0;
+            padding: 0;
+          }
+        }
+      }
+    }
+
+    p#certification-links {
+      font-family: $font;
+      font-size: 3rem;
+      color: $white;
+      line-height: 4.5rem;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+
+      a.link,
+      a.link:visited,
+      a.link:active,
+      a.link:hover {
+        color: $white;
+      }
+    }
+  }
+}
+
 h2.section-heading {
   font-family: $font;
   font-size: 5.6rem;
