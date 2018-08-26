@@ -78,23 +78,6 @@ section#intro {
       background: $orange;
       margin: 0;
       padding: 0;
-      animation-name: grow;
-      animation-duration: 4s;
-      animation-delay: 2s;
-      animation-timing-function: ease;
-      animation-iteration-count: infinite;
-
-      @keyframes grow {
-        0%,
-        100% {
-          transform: scale(1);
-          background: $orange;
-        }
-        50% {
-          transform: scale(1.1);
-          background: lighten($orange, 5%);
-        }
-      }
 
       h2#logo-text {
         font-size: 20rem;
@@ -138,6 +121,24 @@ section#intro {
       span.highlight {
         color: $orange;
         text-shadow: $shadow;
+        display: inline-block;
+        animation-name: grow;
+        animation-duration: 4s;
+        animation-delay: 4s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+
+        @keyframes grow {
+          0%,
+          100% {
+            transform: scale(1);
+            color: $orange;
+          }
+          50% {
+            transform: scale(1.05);
+            color: lighten($orange, 5%);
+          }
+        }
       }
     }
   }
