@@ -1,7 +1,7 @@
 $background: #242529;
 $orange: #ff8135;
 $white: white;
-$font: "Noto Sans", sans-serif;
+$font: 'Noto Sans', sans-serif;
 $shadow: 0 3px 12px rgba(0, 0, 0, 0.5);
 
 :root {
@@ -122,23 +122,6 @@ section#intro {
         color: $orange;
         text-shadow: $shadow;
         display: inline-block;
-        animation-name: grow;
-        animation-duration: 4s;
-        animation-delay: 4s;
-        animation-timing-function: ease;
-        animation-iteration-count: infinite;
-
-        @keyframes grow {
-          0%,
-          100% {
-            transform: scale(1);
-            color: $orange;
-          }
-          50% {
-            transform: scale(1.05);
-            color: lighten($orange, 5%);
-          }
-        }
       }
     }
   }
@@ -224,7 +207,7 @@ section#projects {
         }
 
         &::before {
-          content: "";
+          content: '';
           display: block;
           width: 0px;
           height: 160px;
@@ -573,7 +556,7 @@ footer {
         margin: 1.5rem 0;
 
         &::before {
-          content: "";
+          content: '';
           display: block;
           position: absolute;
           left: 0;
