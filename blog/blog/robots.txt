@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://hoops.jacobvarner.com/sitemap.xml
