@@ -1,73 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>https://www.jacobvarner.com/</loc>
-<lastmod>2020-05-02T23:22:42+00:00</lastmod>
+  <loc>https://www.jacobvarner.com/</loc>
+  <lastmod>2020-05-09T22:52:06+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://www.jacobvarner.com/blog/</loc>
-<lastmod>2020-05-02T23:22:42+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://www.jacobvarner.com/blog/</loc>
+  <lastmod>2020-05-09T22:52:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.jacobvarner.com/blog/resources</loc>
-<lastmod>2020-05-02T23:22:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.jacobvarner.com/blog/resources</loc>
+  <lastmod>2020-05-09T22:52:06+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.jacobvarner.com/blog/2020/04/30/home-and-home-series-I-want-to-see-each-sec-basketball-team-schedule-next-season-or-in-the-coming-years.html
-</loc>
-<lastmod>2020-05-02T23:22:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.jacobvarner.com/blog/2020/04/30/home-and-home-series-I-want-to-see-each-sec-basketball-team-schedule-next-season-or-in-the-coming-years.html</loc>
+  <lastmod>2020-05-09T22:52:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.jacobvarner.com/blog/2020/04/27/a-look-back-at-sec-basketball-in-the-2000s.html
-</loc>
-<lastmod>2020-05-02T23:22:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.jacobvarner.com/blog/2020/04/27/a-look-back-at-sec-basketball-in-the-2000s.html</loc>
+  <lastmod>2020-05-09T22:52:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.jacobvarner.com/blog/2020/04/24/with-200-days-until-college-basketball-returns-these-are-the-biggest-questions-for-each-sec-basketball-team.html
-</loc>
-<lastmod>2020-05-02T23:22:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.jacobvarner.com/blog/2020/04/24/with-200-days-until-college-basketball-returns-these-are-the-biggest-questions-for-each-sec-basketball-team.html</loc>
+  <lastmod>2020-05-09T22:52:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.jacobvarner.com/blog/2020/02/28/auburn-basketball-games-around-the-country-and-world.html
-</loc>
-<lastmod>2020-05-02T23:22:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.jacobvarner.com/blog/2020/02/28/auburn-basketball-games-around-the-country-and-world.html</loc>
+  <lastmod>2020-05-09T22:52:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.jacobvarner.com/blog/2020/02/21/an-overview-of-kenpom-net-and-other-official-metrics-used-by-the-ncaa-tournament-selection-committee-in-2020.html
-</loc>
-<lastmod>2020-05-02T23:22:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.jacobvarner.com/blog/2020/02/21/an-overview-of-kenpom-net-and-other-official-metrics-used-by-the-ncaa-tournament-selection-committee-in-2020.html</loc>
+  <lastmod>2020-05-09T22:52:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.jacobvarner.com/blog/2020/02/14/calculating-relative-game-performance-and-statistically-awarding-mvps.html
-</loc>
-<lastmod>2020-05-02T23:22:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.jacobvarner.com/blog/2020/02/14/calculating-relative-game-performance-and-statistically-awarding-mvps.html</loc>
+  <lastmod>2020-05-09T22:52:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.jacobvarner.com/blog/2020/02/07/auburn-basketball-offensive-and-defensive-efficiencies-in-the-bruce-pearl-era-with-graphs.html
-</loc>
-<lastmod>2020-05-02T23:22:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.jacobvarner.com/blog/2020/02/07/auburn-basketball-offensive-and-defensive-efficiencies-in-the-bruce-pearl-era-with-graphs.html</loc>
+  <lastmod>2020-05-09T22:52:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.jacobvarner.com/blog/2020/01/31/breaking-down-individual-win-loss-records-for-auburn-basketball-in-the-bruce-pearl-era.html
-</loc>
-<lastmod>2020-05-02T23:22:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.jacobvarner.com/blog/2020/01/31/breaking-down-individual-win-loss-records-for-auburn-basketball-in-the-bruce-pearl-era.html</loc>
+  <lastmod>2020-05-09T22:52:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+
+
 </urlset>
