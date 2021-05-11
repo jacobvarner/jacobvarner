@@ -322,6 +322,10 @@ p.sub-text {
     padding: 0;
 }
 
+a, a:hover, a:active, a:visited {
+    color: var(--gray);
+}
+
 p#resume-sub-text {
     margin: 1rem 0 0 0;
 }
